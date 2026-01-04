@@ -1,0 +1,84 @@
+---
+pagination:
+  data: recipes
+  size: 1
+  alias: slug
+permalink: "/recipes/{{ slug }}/"
+layout: layouts/base.njk
+title: "{{ recipes[slug].title }} | Cooking Timer"
+ogTitle: "{{ recipes[slug].title }}"
+ogDescription: "{{ recipes[slug].description | default('Cook ' + recipes[slug].title + ' with step-by-step guidance') }}"
+ogImage: "/assets/images/og/{{ slug }}.png"
+ogType: "article"
+---
+{% import "macros/recipe-macros.njk" as macros %}
+
+{% set recipe = recipes[slug] %}
+{% set process = processes[slug] %}
+
+<div class="mb-4">
+  <a href="/" class="btn btn-ghost btn-sm">← Back to Recipes</a>
+</div>
+
+{# Recipe Header Section - collapsible when timer runs #}
+<div id="recipe-header-section">
+  <h1 class="text-3xl font-bold mb-2">{{ recipe.title }}</h1>
+
+  {% if recipe.description %}
+  <p class="text-base-content/70 mb-4">{{ recipe.description }}</p>
+  {% endif %}
+
+  <div class="flex flex-wrap gap-2 mb-6">
+    {% if recipe.difficulty %}
+    <span class="badge badge-{{ 'success' if recipe.difficulty == 'easy' else ('warning' if recipe.difficulty == 'medium' else 'error') }}">
+      {{ recipe.difficulty }}
+    </span>
+    {% endif %}
+    
+    {% if process.totalDurationMinutes %}
+    <span class="badge badge-ghost">⏱️ {{ process.totalDurationMinutes | formatMinutes }}</span>
+    {% endif %}
+  </div>
+</div>
+
+{# Timer Controls #}
+{% include "components/timer-controls.njk" %}
+
+{# Serving Selector #}
+<div id="serving-section">
+{% set servings = recipe.servings %}
+{% include "components/serving-selector.njk" %}
+</div>
+
+{# Ingredients Section #}
+<div id="ingredients-section" class="card bg-base-100 shadow-lg mb-6">
+  <div class="card-body">
+    <h2 class="card-title">🥘 Ingredients</h2>
+    {{ macros.ingredientList(recipe.ingredients, recipe.servings.default) }}
+  </div>
+</div>
+
+{# Timeline Section #}
+{% if process and process.timeline %}
+{% set timeline = process.timeline %}
+{% include "components/timeline-view.njk" %}
+{% endif %}
+
+{# Finish Criteria #}
+{% if process.finishCriteria %}
+<div class="alert alert-success mt-6">
+  <span>✅ <strong>Done when:</strong> {{ process.finishCriteria }}</span>
+</div>
+{% endif %}
+
+<script>
+  // Initialize recipe data and timer
+  document.addEventListener('DOMContentLoaded', function() {
+    const recipeData = {{ recipe | json | safe }};
+    const processData = {{ process | json | safe }};
+    
+    initRecipeData(recipeData);
+    initTimeline(processData);
+    initTimer('{{ slug }}');
+  });
+</script>

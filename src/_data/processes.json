@@ -1,0 +1,201 @@
+{
+  "pasta-carbonara": {
+    "recipeSlug": "pasta-carbonara",
+    "totalDurationMinutes": 25,
+    "timeline": [
+      {
+        "id": "boil-water",
+        "type": "action",
+        "instruction": "Bring a large pot of water to boil",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "resource": "stovetop"
+      },
+      {
+        "id": "prep-parallel",
+        "type": "parallel",
+        "startMinute": 0,
+        "actions": [
+          {
+            "id": "prep-pancetta",
+            "type": "action",
+            "instruction": "Cut pancetta into small cubes",
+            "startMinute": 0,
+            "durationMinutes": 3,
+            "isCriticalPath": false
+          },
+          {
+            "id": "mix-eggs",
+            "type": "action",
+            "instruction": "Whisk eggs, yolks, Pecorino, and pepper in a bowl",
+            "startMinute": 0,
+            "durationMinutes": 2,
+            "isCriticalPath": false
+          }
+        ]
+      },
+      {
+        "id": "cook-pancetta",
+        "type": "action",
+        "instruction": "Cook pancetta in a pan over medium heat until crispy",
+        "startMinute": 3,
+        "durationMinutes": 7,
+        "isCriticalPath": false,
+        "resource": "pan"
+      },
+      {
+        "id": "cook-pasta",
+        "type": "action",
+        "instruction": "Add pasta to boiling water and cook until al dente",
+        "startMinute": 10,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "resource": "stovetop"
+      },
+      {
+        "id": "combine",
+        "type": "action",
+        "instruction": "Remove pasta from heat, add to pancetta, then quickly stir in egg mixture (off heat!)",
+        "startMinute": 20,
+        "durationMinutes": 2,
+        "isCriticalPath": true
+      },
+      {
+        "id": "serve",
+        "type": "action",
+        "instruction": "Serve immediately with extra Pecorino and pepper",
+        "startMinute": 22,
+        "durationMinutes": 1,
+        "isCriticalPath": false
+      }
+    ],
+    "finishCriteria": "Pasta is creamy and coated, eggs are silky not scrambled"
+  },
+  "zucchini-with-pine-nuts-and-ham-wrapped-pears": {
+    "recipeSlug": "zucchini-with-pine-nuts-and-ham-wrapped-pears",
+    "totalDurationMinutes": 65,
+    "timeline": [
+      {
+        "id": "preheat-oven-and-prepare-zucchini",
+        "type": "action",
+        "instruction": "Preheat the oven to 220°C (200°C fan). Cut the ends off the zucchini and slice into 2-3 mm thin slices. Lay the zucchini slices on a baking tray lined with baking paper. (Use 1 tbsp of oil for 2 servings, scale accordingly.)",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "season-and-bake-zucchini",
+        "type": "action",
+        "instruction": "Drizzle the zucchini slices with oil, season with salt and pepper, and bake for about 10-15 minutes until soft and beginning to brown.",
+        "startMinute": 10,
+        "durationMinutes": 15,
+        "isCriticalPath": true
+      },
+      {
+        "id": "prepare-fruit",
+        "type": "action",
+        "instruction": "Cut the pear into eighths and core it. Halve the pomegranate and remove the seeds by tapping the halves over a bowl with a spoon. Wash the lemon, zest the peel, then quarter it.",
+        "startMinute": 25,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "wrap-pears-in-ham",
+        "type": "action",
+        "instruction": "Halve the ham slices lengthwise. Wrap each pear slice with a halved ham slice lengthwise.",
+        "startMinute": 35,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "roast-pine-nuts",
+        "type": "action",
+        "instruction": "In a large dry pan, roast the pine nuts for 2-3 minutes until fragrant, stirring frequently to prevent burning. (Be attentive as pine nuts burn easily.)",
+        "startMinute": 40,
+        "durationMinutes": 3,
+        "isCriticalPath": true
+      },
+      {
+        "id": "marinate-rucola-and-prepare-for-cooking",
+        "type": "action",
+        "instruction": "In a large bowl, mix 2 tablespoons of oil, juice from 1-2 lemon wedges, salt, pepper and a pinch of sugar to make a dressing. Marinate the arugula in this dressing shortly before serving. (Adjust oil and lemon quantities according to servings.)",
+        "startMinute": 43,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "cook-ham-wrapped-pears",
+        "type": "action",
+        "instruction": "Heat 1 tablespoon of oil in a pan over medium heat. In batches, cook the ham-wrapped pear slices for 3-4 minutes, turning gently until the ham is crispy.",
+        "startMinute": 48,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "assemble-and-serve",
+        "type": "action",
+        "instruction": "Arrange the baked zucchini slices in a circle on serving plates. Drizzle some dressing and balsamic cream over them. Sprinkle grated hard cheese, pine nuts, and lemon zest on top. Place marinated arugula in the center of the plate, arrange the ham-wrapped pear slices on top, and garnish with pomegranate seeds. (Serve immediately.)",
+        "startMinute": 58,
+        "durationMinutes": 7,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed as described"
+  },
+  "zucchini-schinken-birne-salat-mit-pinienkernen": {
+    "recipeSlug": "zucchini-schinken-birne-salat-mit-pinienkernen",
+    "totalDurationMinutes": 55,
+    "timeline": [
+      {
+        "id": "zucchini-schneiden",
+        "type": "action",
+        "instruction": "Enden der Zucchini abschneiden. Zucchini in 2-3 mm dünne Scheiben schneiden oder hobeln. Zucchinischeiben auf ein mit Backpapier belegtes Backblech geben, 1 EL (für 4 Portionen, entsprechend weniger oder mehr für andere Portionen) Öl darüber verteilen, mit Salz und Pfeffer würzen. Ca. 10-15 Min. backen, bis sie weich sind und anfangen zu bräunen. (Backofen auf 220 °C Ober-/Unterhitze vorheizen.)",
+        "startMinute": 0,
+        "durationMinutes": 20,
+        "isCriticalPath": true
+      },
+      {
+        "id": "obst-vorbereiten",
+        "type": "action",
+        "instruction": "Birne achteln und Kerne abschneiden. Granatapfel halbieren, Hälften rundherum etwas zusammendrücken und in eine kleine Schüssel halten. Mit einem Löffel auf der Außenseite klopfen, damit die Kerne herausfallen. Zitrone heiß abwaschen, Schale abreiben und Zitrone vierteln.",
+        "startMinute": 20,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "birne-umwickeln",
+        "type": "action",
+        "instruction": "Schinkenscheiben längs halbieren und jeweils eine Scheibe um eine Birnenspalte wickeln.",
+        "startMinute": 30,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "pinienkerne-rösten",
+        "type": "action",
+        "instruction": "In einer großen Pfanne ohne Fett Pinienkerne 2-3 Minuten rösten, bis sie duften. Dabei bleiben, da Pinienkerne schnell verbrennen. (Aufpassen, dass sie nicht verbrennen.)",
+        "startMinute": 35,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "birnen-braten",
+        "type": "action",
+        "instruction": "In einer großen Schüssel aus 2 EL Öl (für 2 Portionen, für 4 Portionen entsprechend 4 EL), dem Saft von 1-2 Zitronenspalten, Salz, Pfeffer und einer Prise Zucker ein Dressing anrühren. Kurz vor dem Anrichten Rucola in dem Dressing marinieren. In einer Pfanne 1 EL Öl bei mittlerer Hitze erwärmen. Schinken-Birnen rundherum 3-4 Min. anbraten, bis der Schinken knusprig ist.",
+        "startMinute": 40,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "Zucchinischeiben kreisförmig auf Tellern anrichten. Etwas Dressing und Balsamico-Crème darüber träufeln. Geraspelten Hartkäse, geröstete Pinienkerne und eine Prise Zitronenabrieb darüber geben. Marinierten Rucola in der Mitte hoch anrichten. Birnenspalten mit Schinken darauflegen und mit Granatapfelkernen garnieren.",
+        "startMinute": 50,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed as described"
+  }
+}

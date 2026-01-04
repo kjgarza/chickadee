@@ -1,0 +1,40 @@
+<div id="timeline-view" class="space-y-4">
+  <h2 class="text-xl font-bold mb-4">📋 Full Timeline</h2>
+  
+  <div id="timeline-steps" class="space-y-3">
+    {% for item in timeline %}
+      {% if item.type == 'action' %}
+        {% set step = item %}
+        {% set isNext = loop.first %}
+        {% include "components/step-card.njk" %}
+      {% elif item.type == 'parallel' %}
+        <div class="card bg-base-100 shadow-lg border-l-4 border-info">
+          <div class="card-body">
+            <span class="badge badge-info mb-2">Parallel Steps</span>
+            <p class="text-sm text-base-content/70 mb-3">These can be done at the same time:</p>
+            <div class="space-y-2 pl-4">
+              {% for action in item.actions %}
+                <div class="flex flex-col gap-2 py-2 border-b border-base-200 last:border-0">
+                  {% if action.image %}
+                  <img 
+                    src="{{ action.image }}" 
+                    alt="Step: {{ action.instruction | truncate(50) }}" 
+                    class="rounded-lg w-full h-32 object-cover"
+                    loading="lazy"
+                  />
+                  {% endif %}
+                  <div class="flex justify-between items-center">
+                    <span>{{ action.instruction }}</span>
+                    {% if action.durationMinutes %}
+                    <span class="badge badge-ghost">{{ action.durationMinutes | formatMinutes }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

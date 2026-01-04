@@ -1,0 +1,29 @@
+{% macro ingredientList(ingredients, servingSize) %}
+<ul class="list-disc pl-5 space-y-1">
+  {% for ingredient in ingredients %}
+  <li class="ingredient-item" data-ingredient="{{ ingredient.name }}">
+    <span class="ingredient-quantity" data-quantities="{{ ingredient.quantitiesByServings | json }}">
+      {{ ingredient.quantitiesByServings[servingSize | string] | default(ingredient.quantitiesByServings[servingSize]) }}
+    </span>
+    {% if ingredient.unit %}<span class="ingredient-unit">{{ ingredient.unit }}</span>{% endif %}
+    <span class="font-medium">{{ ingredient.name }}</span>
+    {% if ingredient.notes %}<span class="text-sm text-base-content/60">({{ ingredient.notes }})</span>{% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+
+{% macro stepBadge(step) %}
+{% if step.isCriticalPath %}
+<span class="badge badge-warning">Critical</span>
+{% endif %}
+{% if step.resource %}
+<span class="badge badge-ghost">{{ step.resource }}</span>
+{% endif %}
+{% endmacro %}
+
+{% macro timeDisplay(minutes) %}
+{% set hrs = (minutes / 60) | int %}
+{% set mins = minutes % 60 %}
+{% if hrs > 0 %}{{ hrs }}h {{ mins }}m{% else %}{{ mins }}m{% endif %}
+{% endmacro %}

@@ -1,0 +1,10 @@
+<div class="form-control w-full max-w-xs mb-6">
+  <label class="label">
+    <span class="label-text font-semibold">Servings</span>
+  </label>
+  <select id="serving-selector" class="select select-bordered" onchange="updateServingSize(this.value)">
+    {% for i in range(servings.min, servings.max + 1) %}
+    <option value="{{ i }}" {{ 'selected' if i == servings.default }}>{{ i }} servings</option>
+    {% endfor %}
+  </select>
+</div>

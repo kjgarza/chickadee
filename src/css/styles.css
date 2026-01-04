@@ -1,0 +1,65 @@
+/* Custom styles for Cooking Timer App */
+
+/* Step card animations */
+.step-card {
+  transition: all 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Timer display */
+#elapsed-time {
+  font-variant-numeric: tabular-nums;
+}
+
+.step-countdown {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Ingredient list */
+.ingredient-quantity {
+  min-width: 3ch;
+  display: inline-block;
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+  .card-body {
+    padding: 1rem;
+  }
+  
+  #elapsed-time {
+    font-size: 2.5rem;
+  }
+}
+
+/* Next step pulse animation */
+@keyframes pulse-border {
+  0%, 100% {
+    border-color: var(--accent);
+  }
+  50% {
+    border-color: var(--primary);
+  }
+}
+
+.step-card.border-accent {
+  animation: pulse-border 2s ease-in-out infinite;
+}
+
+/* Completed step styling */
+.step-card.opacity-60 {
+  background-color: var(--base-200);
+}
+
+/* Timeline connection line */
+#timeline-steps > .card:not(:last-child)::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 1rem;
+  background: linear-gradient(to bottom, var(--base-300), transparent);
+  margin: 0 auto;
+}

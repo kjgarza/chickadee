@@ -1,0 +1,25 @@
+{
+  "name": "cooking-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "bunx @11ty/eleventy --serve",
+    "build": "bunx @11ty/eleventy",
+    "validate": "bun scripts/validate-recipes.js",
+    "generate": "bun scripts/generate-process.js",
+    "image-to-recipe": "bun scripts/image-to-recipe.js",
+    "prebuild": "bun run validate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Mobile-friendly interactive cooking timer with Eleventy and Nunjucks",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "openai": "^6.15.0",
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^24.34.0"
+  }
+}

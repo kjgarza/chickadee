@@ -1,0 +1,8 @@
+# Step Images
+
+Place step images here. Reference them in recipes.json as:
+```json
+"image": "/assets/images/steps/your-image.jpg"
+```
+
+Supported formats: jpg, png, webp, gif

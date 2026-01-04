@@ -1,0 +1,680 @@
+{
+  "pasta-carbonara": {
+    "slug": "pasta-carbonara",
+    "title": "Classic Pasta Carbonara",
+    "description": "Creamy Italian pasta with eggs, cheese, and pancetta",
+    "difficulty": "medium",
+    "totalTimeMinutes": 30,
+    "servings": {
+      "min": 2,
+      "max": 6,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "spaghetti",
+        "unit": "g",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "pancetta or guanciale",
+        "unit": "g",
+        "quantitiesByServings": {
+          "2": 75,
+          "3": 110,
+          "4": 150,
+          "5": 185,
+          "6": 225
+        }
+      },
+      {
+        "name": "eggs",
+        "unit": "whole",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "egg yolks",
+        "unit": "yolks",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 3
+        }
+      },
+      {
+        "name": "Pecorino Romano",
+        "unit": "g",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 75,
+          "4": 100,
+          "5": 125,
+          "6": 150
+        },
+        "notes": "finely grated"
+      },
+      {
+        "name": "black pepper",
+        "unit": "tsp",
+        "quantitiesByServings": {
+          "2": 0.5,
+          "3": 0.75,
+          "4": 1,
+          "5": 1.25,
+          "6": 1.5
+        },
+        "notes": "freshly ground"
+      },
+      {
+        "name": "salt",
+        "unit": "tbsp",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1.5,
+          "6": 1.5
+        },
+        "notes": "for pasta water"
+      }
+    ],
+    "steps": [
+      {
+        "id": "boil-water",
+        "instruction": "Bring a large pot of water to boil",
+        "durationMinutes": 10
+      },
+      {
+        "id": "prep-pancetta",
+        "instruction": "Cut pancetta into small cubes",
+        "durationMinutes": 3
+      },
+      {
+        "id": "mix-eggs",
+        "instruction": "Whisk eggs, yolks, Pecorino, and pepper in a bowl",
+        "durationMinutes": 2,
+        "ingredients": [
+          "eggs",
+          "egg yolks",
+          "Pecorino Romano",
+          "black pepper"
+        ]
+      },
+      {
+        "id": "cook-pancetta",
+        "instruction": "Cook pancetta in a pan over medium heat until crispy",
+        "durationMinutes": 7
+      },
+      {
+        "id": "cook-pasta",
+        "instruction": "Add pasta to boiling water and cook until al dente",
+        "durationMinutes": 10
+      },
+      {
+        "id": "combine",
+        "instruction": "Remove pasta from heat, add to pancetta, then quickly stir in egg mixture",
+        "durationMinutes": 2,
+        "notes": "Off heat to avoid scrambling eggs"
+      },
+      {
+        "id": "serve",
+        "instruction": "Serve immediately with extra Pecorino and pepper",
+        "durationMinutes": 1
+      }
+    ],
+    "tags": [
+      "italian",
+      "pasta",
+      "quick",
+      "comfort-food"
+    ]
+  },
+  "zucchini-with-pine-nuts-and-ham-wrapped-pears": {
+    "slug": "zucchini-with-pine-nuts-and-ham-wrapped-pears",
+    "title": "Zucchini with Pine Nuts and Ham-Wrapped Pears",
+    "description": "A delightful dish with baked zucchini slices, roasted pine nuts, marinated arugula, and pears wrapped in ham, garnished with pomegranate seeds and balsamic cream.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 45,
+    "servings": {
+      "min": 2,
+      "max": 8,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "unit": "pieces",
+        "notes": "Cut into 2-3 mm slices",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Pomegranate",
+        "unit": "pieces",
+        "notes": "Halved and seeds removed",
+        "quantitiesByServings": {
+          "2": 0.5,
+          "3": 0.75,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Hard cheese, grated",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 40,
+          "4": 60,
+          "5": 80,
+          "6": 80
+        }
+      },
+      {
+        "name": "Balsamic cream",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 12,
+          "3": 24,
+          "4": 36,
+          "5": 48,
+          "6": 48
+        }
+      },
+      {
+        "name": "Pine nuts",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 20,
+          "4": 30,
+          "5": 40,
+          "6": 40
+        }
+      },
+      {
+        "name": "Lemon, zested and quartered",
+        "unit": "pieces",
+        "notes": "Washed, peel grated, then quartered",
+        "quantitiesByServings": {
+          "2": 0.25,
+          "3": 0.5,
+          "4": 0.75,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Arugula (Rucola)",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 100,
+          "4": 150,
+          "5": 200,
+          "6": 200
+        }
+      },
+      {
+        "name": "Ham slices",
+        "unit": "g",
+        "notes": "For wrapping the pear slices",
+        "quantitiesByServings": {
+          "2": 80,
+          "3": 120,
+          "4": 160,
+          "5": 200,
+          "6": 200
+        }
+      },
+      {
+        "name": "Pear",
+        "unit": "pieces",
+        "notes": "Cored and cut into eighths",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4,
+          "6": 4
+        }
+      },
+      {
+        "name": "Oil",
+        "unit": "tablespoons",
+        "notes": "For baking and sautéing",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 8,
+          "4": 12,
+          "5": 16,
+          "6": 16
+        }
+      },
+      {
+        "name": "Salt",
+        "unit": "to taste",
+        "notes": "For seasoning",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pepper",
+        "unit": "to taste",
+        "notes": "For seasoning",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Sugar",
+        "unit": "pinch",
+        "notes": "For dressing",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "preheat-oven-and-prepare-zucchini",
+        "instruction": "Preheat the oven to 220°C (200°C fan). Cut the ends off the zucchini and slice into 2-3 mm thin slices. Lay the zucchini slices on a baking tray lined with baking paper.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Zucchini",
+          "Oil",
+          "Salt",
+          "Pepper"
+        ],
+        "notes": "Use 1 tbsp of oil for 2 servings, scale accordingly."
+      },
+      {
+        "id": "season-and-bake-zucchini",
+        "instruction": "Drizzle the zucchini slices with oil, season with salt and pepper, and bake for about 10-15 minutes until soft and beginning to brown.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Zucchini",
+          "Oil",
+          "Salt",
+          "Pepper"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "prepare-fruit",
+        "instruction": "Cut the pear into eighths and core it. Halve the pomegranate and remove the seeds by tapping the halves over a bowl with a spoon. Wash the lemon, zest the peel, then quarter it.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Pear",
+          "Pomegranate",
+          "Lemon"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "wrap-pears-in-ham",
+        "instruction": "Halve the ham slices lengthwise. Wrap each pear slice with a halved ham slice lengthwise.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Ham slices",
+          "Pear"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "roast-pine-nuts",
+        "instruction": "In a large dry pan, roast the pine nuts for 2-3 minutes until fragrant, stirring frequently to prevent burning.",
+        "durationMinutes": 3,
+        "ingredients": [
+          "Pine nuts"
+        ],
+        "notes": "Be attentive as pine nuts burn easily."
+      },
+      {
+        "id": "marinate-rucola-and-prepare-for-cooking",
+        "instruction": "In a large bowl, mix 2 tablespoons of oil, juice from 1-2 lemon wedges, salt, pepper and a pinch of sugar to make a dressing. Marinate the arugula in this dressing shortly before serving.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Oil",
+          "Lemon",
+          "Salt",
+          "Pepper",
+          "Sugar",
+          "Arugula"
+        ],
+        "notes": "Adjust oil and lemon quantities according to servings."
+      },
+      {
+        "id": "cook-ham-wrapped-pears",
+        "instruction": "Heat 1 tablespoon of oil in a pan over medium heat. In batches, cook the ham-wrapped pear slices for 3-4 minutes, turning gently until the ham is crispy.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Oil",
+          "Ham slices",
+          "Pear"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "assemble-and-serve",
+        "instruction": "Arrange the baked zucchini slices in a circle on serving plates. Drizzle some dressing and balsamic cream over them. Sprinkle grated hard cheese, pine nuts, and lemon zest on top. Place marinated arugula in the center of the plate, arrange the ham-wrapped pear slices on top, and garnish with pomegranate seeds.",
+        "durationMinutes": 7,
+        "ingredients": [
+          "Zucchini",
+          "Dressing",
+          "Balsamic cream",
+          "Hard cheese",
+          "Pine nuts",
+          "Lemon",
+          "Arugula",
+          "Pear",
+          "Pomegranate"
+        ],
+        "notes": "Serve immediately."
+      }
+    ],
+    "tags": [
+      "vegetable",
+      "fruit",
+      "baking",
+      "roasting",
+      "appetizer",
+      "salad",
+      "mediterranean"
+    ]
+  },
+  "zucchini-schinken-birne-salat-mit-pinienkernen": {
+    "slug": "zucchini-schinken-birne-salat-mit-pinienkernen",
+    "title": "Zucchini-Schinken-Birne-Salat mit Pinienkernen",
+    "description": "Ein frischer und leckerer Salat mit Zucchinischeiben, Schinken, Birnenspalten, geraspeltem Hartkäse, Pinienkernen und Granatapfelkernen, verfeinert mit Dressing und Balsamico-Crème.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 40,
+    "servings": {
+      "min": 2,
+      "max": 8,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Zucchini",
+        "unit": "Stück",
+        "notes": "2-3 mm dünne Scheiben",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Granatapfel",
+        "unit": "Stück",
+        "notes": "halbieren und Kerne entfernen",
+        "quantitiesByServings": {
+          "2": 0.5,
+          "3": 0.75,
+          "4": 1,
+          "5": 1.25,
+          "6": 1.5
+        }
+      },
+      {
+        "name": "Hartkäse, geraspelt",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 40,
+          "4": 60,
+          "5": 80,
+          "6": 80
+        }
+      },
+      {
+        "name": "Balsamico-Crème",
+        "unit": "EL",
+        "notes": "zum Beträufeln",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4,
+          "6": 4
+        }
+      },
+      {
+        "name": "Pinienkerne",
+        "unit": "g",
+        "notes": "geröstet",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 20,
+          "4": 30,
+          "5": 40,
+          "6": 40
+        }
+      },
+      {
+        "name": "Zitrone, gewachst",
+        "unit": "Stück",
+        "notes": "Saft und Abrieb",
+        "quantitiesByServings": {
+          "2": 0.25,
+          "3": 0.5,
+          "4": 0.75,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Rucola",
+        "unit": "g",
+        "notes": "frisch",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 100,
+          "4": 150,
+          "5": 200,
+          "6": 200
+        }
+      },
+      {
+        "name": "Schinkenspeck",
+        "unit": "g",
+        "notes": "in Scheiben",
+        "quantitiesByServings": {
+          "2": 80,
+          "3": 120,
+          "4": 160,
+          "5": 240,
+          "6": 300
+        }
+      },
+      {
+        "name": "Birne",
+        "unit": "Stück",
+        "notes": "halbieren und in Spalten schneiden",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 4,
+          "6": 4
+        }
+      },
+      {
+        "name": "Öl",
+        "unit": "EL",
+        "notes": "zum Braten und Backen",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 8,
+          "4": 12,
+          "5": 16,
+          "6": 16
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Zucker",
+        "unit": "Prise",
+        "notes": "für Dressing",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "zucchini-schneiden",
+        "instruction": "Enden der Zucchini abschneiden. Zucchini in 2-3 mm dünne Scheiben schneiden oder hobeln. Zucchinischeiben auf ein mit Backpapier belegtes Backblech geben, 1 EL (für 4 Portionen, entsprechend weniger oder mehr für andere Portionen) Öl darüber verteilen, mit Salz und Pfeffer würzen. Ca. 10-15 Min. backen, bis sie weich sind und anfangen zu bräunen.",
+        "durationMinutes": 20,
+        "ingredients": [
+          "Zucchini",
+          "Öl",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "Backofen auf 220 °C Ober-/Unterhitze vorheizen."
+      },
+      {
+        "id": "obst-vorbereiten",
+        "instruction": "Birne achteln und Kerne abschneiden. Granatapfel halbieren, Hälften rundherum etwas zusammendrücken und in eine kleine Schüssel halten. Mit einem Löffel auf der Außenseite klopfen, damit die Kerne herausfallen. Zitrone heiß abwaschen, Schale abreiben und Zitrone vierteln.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Birne",
+          "Granatapfel",
+          "Zitrone"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "birne-umwickeln",
+        "instruction": "Schinkenscheiben längs halbieren und jeweils eine Scheibe um eine Birnenspalte wickeln.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Schinkenspeck",
+          "Birne"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "pinienkerne-rösten",
+        "instruction": "In einer großen Pfanne ohne Fett Pinienkerne 2-3 Minuten rösten, bis sie duften. Dabei bleiben, da Pinienkerne schnell verbrennen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Pinienkerne"
+        ],
+        "notes": "Aufpassen, dass sie nicht verbrennen."
+      },
+      {
+        "id": "birnen-braten",
+        "instruction": "In einer großen Schüssel aus 2 EL Öl (für 2 Portionen, für 4 Portionen entsprechend 4 EL), dem Saft von 1-2 Zitronenspalten, Salz, Pfeffer und einer Prise Zucker ein Dressing anrühren. Kurz vor dem Anrichten Rucola in dem Dressing marinieren. In einer Pfanne 1 EL Öl bei mittlerer Hitze erwärmen. Schinken-Birnen rundherum 3-4 Min. anbraten, bis der Schinken knusprig ist.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Öl",
+          "Zitronensaft",
+          "Salz",
+          "Pfeffer",
+          "Zucker",
+          "Rucola",
+          "Schinkenspeck",
+          "Birne"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "anrichten",
+        "instruction": "Zucchinischeiben kreisförmig auf Tellern anrichten. Etwas Dressing und Balsamico-Crème darüber träufeln. Geraspelten Hartkäse, geröstete Pinienkerne und eine Prise Zitronenabrieb darüber geben. Marinierten Rucola in der Mitte hoch anrichten. Birnenspalten mit Schinken darauflegen und mit Granatapfelkernen garnieren.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Zucchini",
+          "Dressing",
+          "Balsamico-Crème",
+          "Hartkäse",
+          "Pinienkerne",
+          "Zitronenabrieb",
+          "Rucola",
+          "Birne",
+          "Granatapfelkerne"
+        ],
+        "notes": ""
+      }
+    ],
+    "tags": [
+      "salat",
+      "vegetarisch",
+      "beilage",
+      "frisch",
+      "pinienkerne",
+      "zucchini",
+      "birne",
+      "schinken"
+    ]
+  }
+}

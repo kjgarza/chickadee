@@ -1,0 +1,27 @@
+{
+  "title": "Cooking Timer",
+  "description": "Interactive cooking timer with step-by-step guidance",
+  "author": {
+    "name": "Kristian Garza",
+    "email": "kj.garza@gmail.com"
+  },
+  "socialLinks": [
+    {
+      "name": "Figma",
+      "url": "https://www.figma.com/@kristiangarza"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kjgarza"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kjgarza"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:kj.garza@gmail.com"
+    }
+  ],
+  "copyrightYear": 2026
+}
