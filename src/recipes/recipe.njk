@@ -8,7 +8,8 @@ layout: layouts/base.njk
 title: "{{ recipes[slug].title }} | Cooking Timer"
 ogTitle: "{{ recipes[slug].title }}"
 ogDescription: "{{ recipes[slug].description | default('Cook ' + recipes[slug].title + ' with step-by-step guidance') }}"
-ogImage: "/assets/images/og/{{ slug }}.png"
+eleventyComputed:
+  ogImage: "/assets/images/og/{{ slug }}.png"
 ogType: "article"
 ---
 {% import "macros/recipe-macros.njk" as macros %}
@@ -17,7 +18,7 @@ ogType: "article"
 {% set process = processes[slug] %}
 
 <div class="mb-4">
-  <a href="/" class="btn btn-ghost btn-sm">← Back to Recipes</a>
+  <a href="{{ '/' | url }}" class="btn btn-ghost btn-sm">← Back to Recipes</a>
 </div>
 
 {# Recipe Header Section - collapsible when timer runs #}

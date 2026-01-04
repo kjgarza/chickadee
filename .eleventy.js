@@ -19,6 +19,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/chickadee/",
     dir: {
       input: "src",
       output: "_site",

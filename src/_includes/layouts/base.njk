@@ -8,7 +8,7 @@
   {# OpenGraph metadata #}
   <meta property="og:title" content="{{ ogTitle | default(title) | default('Cooking Timer') }}">
   <meta property="og:description" content="{{ ogDescription | default(description) | default('Interactive cooking timer with step-by-step guidance') }}">
-  <meta property="og:image" content="{{ ogImage | default('/assets/images/og-cooking.png') }}">
+  <meta property="og:image" content="{{ (ogImage | default('/assets/images/og-cooking.png')) | url }}">
   <meta property="og:type" content="{{ ogType | default('website') }}">
   {% if ogUrl %}
   <meta property="og:url" content="{{ ogUrl }}">
@@ -16,13 +16,13 @@
   
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
 </head>
 <body class="min-h-screen bg-base-200">
   <div class="container mx-auto px-4 py-6 max-w-2xl">
     <header class="mb-6">
       <div class="flex justify-between items-center">
-        <a href="/" class="text-2xl font-bold text-primary">🍳 Cooking Timer</a>
+        <a href="{{ '/' | url }}" class="text-2xl font-bold text-primary">🍳 Cooking Timer</a>
         <div class="dropdown dropdown-end">
           <label tabindex="0" class="btn btn-ghost btn-sm">
             🎨 Theme
@@ -64,8 +64,8 @@
       document.documentElement.setAttribute('data-theme', savedTheme);
     }
   </script>
-  <script src="/js/timer.js"></script>
-  <script src="/js/timeline.js"></script>
-  <script src="/js/recipe-data.js"></script>
+  <script src="{{ '/js/timer.js' | url }}"></script>
+  <script src="{{ '/js/timeline.js' | url }}"></script>
+  <script src="{{ '/js/recipe-data.js' | url }}"></script>
 </body>
 </html>

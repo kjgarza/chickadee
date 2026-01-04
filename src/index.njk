@@ -34,7 +34,7 @@ title: Recipes
 
 <div id="recipe-grid" class="grid gap-4">
   {% for slug, recipe in recipes %}
-  <a href="/recipes/{{ slug }}/" class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow recipe-card" data-tags="{{ recipe.tags | join(',') if recipe.tags else '' }}">
+  <a href="{{ ('/recipes/' + slug + '/') | url }}" class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow recipe-card" data-tags="{{ recipe.tags | join(',') if recipe.tags else '' }}">
     <div class="card-body">
       <h2 class="card-title">{{ recipe.title }}</h2>
       {% if recipe.description %}
