@@ -39,8 +39,6 @@ h1, h2, h3, h4 {
   border-radius: var(--rounded-badge);
 }
 
-/* Custom styles for Cooking Timer App */
-
 /* Step card animations */
 .step-card {
   transition: all 0.3s ease;
@@ -124,6 +122,7 @@ h1, h2, h3, h4 {
 .prose-lite ul {
   padding-left: 1.25rem;
   list-style: disc;
+  display: flex;
+  flex-direction: column;
   gap: 0.35rem;
-  display: grid;
 }
