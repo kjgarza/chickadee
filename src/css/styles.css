@@ -1,6 +1,47 @@
 /* Custom styles for Cooking Timer App */
 
 /* Step card animations */
+:root {
+  font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+  --rounded-box: 0.85rem;
+  --rounded-btn: 0.55rem;
+  --rounded-badge: 0.35rem;
+}
+
+body {
+  background-color: hsl(var(--b2));
+  color: hsl(var(--bc));
+  line-height: 1.6;
+}
+
+.brand-title,
+h1, h2, h3, h4 {
+  font-family: 'DM Serif Display', 'Georgia', serif;
+  letter-spacing: -0.01em;
+}
+
+.card {
+  border: 1px solid hsl(var(--b3));
+  box-shadow: 0 12px 32px -24px rgba(0, 0, 0, 0.28);
+  border-radius: var(--rounded-box);
+}
+
+.card:hover {
+  border-color: hsl(var(--p));
+  box-shadow: 0 20px 40px -28px rgba(0, 0, 0, 0.35);
+}
+
+.btn {
+  border-radius: var(--rounded-btn);
+}
+
+.badge {
+  border-radius: var(--rounded-badge);
+}
+
+/* Custom styles for Cooking Timer App */
+
+/* Step card animations */
 .step-card {
   transition: all 0.3s ease;
 }
@@ -62,4 +103,27 @@
   height: 1rem;
   background: linear-gradient(to bottom, var(--base-300), transparent);
   margin: 0 auto;
+}
+
+.prose-lite {
+  max-width: none;
+  color: hsl(var(--bc));
+}
+
+.prose-lite h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.35rem;
+}
+
+.prose-lite p,
+.prose-lite ul {
+  margin-bottom: 1rem;
+}
+
+.prose-lite ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+  gap: 0.35rem;
+  display: grid;
 }
