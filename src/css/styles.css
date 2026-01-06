@@ -1,12 +1,12 @@
 /* Global UI tokens and typography */
 :root {
-  font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
   --rounded-box: 0.85rem;
   --rounded-btn: 0.55rem;
   --rounded-badge: 0.35rem;
 }
 
 body {
+  font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
   background-color: hsl(var(--b2));
   color: hsl(var(--bc));
   line-height: 1.6;
