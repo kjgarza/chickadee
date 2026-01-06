@@ -1,6 +1,4 @@
-/* Custom styles for Cooking Timer App */
-
-/* Step card animations */
+/* Global UI tokens and typography */
 :root {
   font-family: 'Roboto Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
   --rounded-box: 0.85rem;
