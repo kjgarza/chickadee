@@ -17,27 +17,27 @@ ogType: "article"
 {% set recipe = recipes[slug] %}
 {% set process = processes[slug] %}
 
-<div class="mb-4">
-  <a href="{{ '/' | url }}" class="btn btn-ghost btn-sm">← Back to Recipes</a>
+<div class="mb-6">
+  <a href="{{ '/' | url }}" class="btn btn--ghost btn--sm">Back</a>
 </div>
 
 {# Recipe Header Section - collapsible when timer runs #}
-<div id="recipe-header-section">
-  <h1 class="text-3xl font-bold mb-2">{{ recipe.title }}</h1>
+<div id="recipe-header-section" class="mb-6">
+  <h1>{{ recipe.title }}</h1>
 
   {% if recipe.description %}
-  <p class="text-base-content/70 mb-4">{{ recipe.description }}</p>
+  <p class="text-muted mb-4">{{ recipe.description }}</p>
   {% endif %}
 
   <div class="flex flex-wrap gap-2 mb-6">
     {% if recipe.difficulty %}
-    <span class="badge badge-{{ 'success' if recipe.difficulty == 'easy' else ('warning' if recipe.difficulty == 'medium' else 'error') }}">
-      {{ recipe.difficulty }}
+    <span class="badge badge--solid">
+      {{ recipe.difficulty | upper }}
     </span>
     {% endif %}
-    
+
     {% if process.totalDurationMinutes %}
-    <span class="badge badge-ghost">⏱️ {{ process.totalDurationMinutes | formatMinutes }}</span>
+    <span class="badge badge--ghost">{{ process.totalDurationMinutes | formatMinutes }}</span>
     {% endif %}
   </div>
 </div>
@@ -52,9 +52,9 @@ ogType: "article"
 </div>
 
 {# Ingredients Section #}
-<div id="ingredients-section" class="card bg-base-100 shadow-lg mb-6">
-  <div class="card-body">
-    <h2 class="card-title">🥘 Ingredients</h2>
+<div id="ingredients-section" class="ingredients-panel">
+  <div class="ingredients-header">Prep List</div>
+  <div class="ingredients-body">
     {{ macros.ingredientList(recipe.ingredients, recipe.servings.default) }}
   </div>
 </div>
@@ -67,8 +67,9 @@ ogType: "article"
 
 {# Finish Criteria #}
 {% if process.finishCriteria %}
-<div class="alert alert-success mt-6">
-  <span>✅ <strong>Done when:</strong> {{ process.finishCriteria }}</span>
+<div class="notice notice--success mt-6">
+  <p class="notice-title">Done When</p>
+  <p>{{ process.finishCriteria }}</p>
 </div>
 {% endif %}
 
@@ -77,7 +78,7 @@ ogType: "article"
   document.addEventListener('DOMContentLoaded', function() {
     const recipeData = {{ recipe | json | safe }};
     const processData = {{ process | json | safe }};
-    
+
     initRecipeData(recipeData);
     initTimeline(processData);
     initTimer('{{ slug }}');

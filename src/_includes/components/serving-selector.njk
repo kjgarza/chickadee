@@ -1,10 +1,33 @@
-<div class="form-control w-full max-w-xs mb-6">
-  <label class="label">
-    <span class="label-text font-semibold">Servings</span>
-  </label>
-  <select id="serving-selector" class="select select-bordered" onchange="updateServingSize(this.value)">
+<div class="covers-selector">
+  <p class="covers-label">Covers</p>
+  <div class="covers-buttons" id="serving-selector-group">
     {% for i in range(servings.min, servings.max + 1) %}
-    <option value="{{ i }}" {{ 'selected' if i == servings.default }}>{{ i }} servings</option>
+    <button
+      type="button"
+      class="covers-btn {{ 'covers-btn--active' if i == servings.default }}"
+      data-value="{{ i }}"
+      onclick="updateServingSize({{ i }})"
+    >
+      {{ i }}
+    </button>
     {% endfor %}
-  </select>
+  </div>
 </div>
+
+<script>
+function updateServingSize(value) {
+  // Update button states
+  document.querySelectorAll('.covers-btn').forEach(btn => {
+    if (parseInt(btn.dataset.value) === value) {
+      btn.classList.add('covers-btn--active');
+    } else {
+      btn.classList.remove('covers-btn--active');
+    }
+  });
+
+  // Update ingredients display
+  if (typeof updateIngredientsForServings === 'function') {
+    updateIngredientsForServings(value);
+  }
+}
+</script>

@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: Recipes
 ---
 
-<h1 class="text-3xl font-bold mb-6">Choose a Recipe</h1>
+<h1>Select Order</h1>
 
 {# Collect all unique tags #}
 {% set allTags = [] %}
@@ -18,55 +18,59 @@ title: Recipes
 {% endfor %}
 
 {# Tag Filter #}
-<div id="tag-filter" class="mb-6">
-  <p class="text-sm font-semibold mb-2">Filter by tag:</p>
-  <div class="flex flex-wrap gap-2">
-    <button class="btn btn-sm btn-primary tag-filter-btn" data-tag="all" onclick="filterByTag('all')">
+<div class="filter-group">
+  <p class="filter-label">Filter</p>
+  <div class="filter-buttons">
+    <button class="filter-btn filter-btn--active" data-tag="all" onclick="filterByTag('all')">
       All
     </button>
     {% for tag in allTags %}
-    <button class="btn btn-sm btn-outline tag-filter-btn" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
+    <button class="filter-btn" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
       {{ tag }}
     </button>
     {% endfor %}
   </div>
 </div>
 
-<div id="recipe-grid" class="grid gap-4">
+<div id="recipe-grid">
   {% for slug, recipe in recipes %}
-  <a href="{{ ('/recipes/' + slug + '/') | url }}" class="card bg-base-100 shadow-lg hover:shadow-xl transition-shadow recipe-card" data-tags="{{ recipe.tags | join(',') if recipe.tags else '' }}">
-    <div class="card-body">
-      <h2 class="card-title">{{ recipe.title }}</h2>
-      {% if recipe.description %}
-      <p class="text-base-content/70">{{ recipe.description }}</p>
+  <a href="{{ ('/recipes/' + slug + '/') | url }}" class="recipe-stub recipe-card" data-tags="{{ recipe.tags | join(',') if recipe.tags else '' }}">
+    <div class="recipe-stub-header">
+      <span>Order #{{ loop.index }}</span>
+      {% if recipe.difficulty %}
+      <span class="difficulty-dots">
+        <span class="difficulty-dot {{ 'difficulty-dot--filled' if recipe.difficulty in ['easy', 'medium', 'hard'] }}"></span>
+        <span class="difficulty-dot {{ 'difficulty-dot--filled' if recipe.difficulty in ['medium', 'hard'] }}"></span>
+        <span class="difficulty-dot {{ 'difficulty-dot--filled' if recipe.difficulty == 'hard' }}"></span>
+      </span>
       {% endif %}
-      
-      <div class="flex flex-wrap gap-2 mt-2">
-        {% if recipe.difficulty %}
-        <span class="badge badge-{{ 'success' if recipe.difficulty == 'easy' else ('warning' if recipe.difficulty == 'medium' else 'error') }}">
-          {{ recipe.difficulty }}
-        </span>
-        {% endif %}
-        
+    </div>
+    <div class="recipe-stub-body">
+      <h2 class="recipe-stub-title">{{ recipe.title }}</h2>
+      {% if recipe.description %}
+      <p class="recipe-stub-description">{{ recipe.description }}</p>
+      {% endif %}
+
+      <div class="recipe-stub-meta">
         {% if recipe.totalTimeMinutes %}
-        <span class="badge badge-ghost">⏱️ {{ recipe.totalTimeMinutes | formatMinutes }}</span>
+        <span>{{ recipe.totalTimeMinutes | formatMinutes }}</span>
         {% endif %}
-        
-        <span class="badge badge-ghost">👥 {{ recipe.servings.min }}-{{ recipe.servings.max }} servings</span>
+        <span>{{ recipe.servings.min }}-{{ recipe.servings.max }} Covers</span>
       </div>
-      
+
       {% if recipe.tags %}
-      <div class="flex flex-wrap gap-1 mt-2">
+      <div class="flex flex-wrap gap-2 mt-4">
         {% for tag in recipe.tags %}
-        <span class="badge badge-outline badge-sm">{{ tag }}</span>
+        <span class="badge badge--ghost">{{ tag }}</span>
         {% endfor %}
       </div>
       {% endif %}
     </div>
   </a>
   {% else %}
-  <div class="alert alert-info">
-    <span>No recipes found. Add recipe JSON files to the _data folder.</span>
+  <div class="notice">
+    <p class="notice-title">No Orders</p>
+    <p>No recipes found. Add recipe JSON files to the _data folder.</p>
   </div>
   {% endfor %}
 </div>
@@ -74,20 +78,18 @@ title: Recipes
 <script>
 function filterByTag(tag) {
   // Update button states
-  document.querySelectorAll('.tag-filter-btn').forEach(btn => {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
     if (btn.dataset.tag === tag) {
-      btn.classList.remove('btn-outline');
-      btn.classList.add('btn-primary');
+      btn.classList.add('filter-btn--active');
     } else {
-      btn.classList.add('btn-outline');
-      btn.classList.remove('btn-primary');
+      btn.classList.remove('filter-btn--active');
     }
   });
-  
+
   // Filter recipe cards
   document.querySelectorAll('.recipe-card').forEach(card => {
     const cardTags = card.dataset.tags ? card.dataset.tags.split(',') : [];
-    
+
     if (tag === 'all' || cardTags.includes(tag)) {
       card.classList.remove('hidden');
     } else {

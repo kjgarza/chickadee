@@ -1,31 +1,35 @@
-<div id="timer-controls" class="card bg-primary text-primary-content mb-6">
-  <div class="card-body text-center">
+<div id="timer-controls" class="timer-panel">
+  <div class="ticket-header">
+    <span>Elapsed</span>
+    <span id="timer-status-label" class="timer-status">Mise en Place</span>
+  </div>
+
+  <div class="timer-display">
     {# Toggle for showing collapsed sections #}
     <div id="sections-toggle" class="hidden mb-4">
-      <button id="toggle-sections-btn" class="btn btn-sm btn-ghost gap-2" onclick="toggleCollapsedSections()">
-        <span id="toggle-icon">👁️</span>
-        <span id="toggle-text">Show Recipe Details</span>
+      <button id="toggle-sections-btn" class="btn btn--ghost btn--sm" onclick="toggleCollapsedSections()">
+        <span id="toggle-text">Show Details</span>
       </button>
     </div>
-    
-    <div id="timer-status" class="hidden">
-      <p class="text-sm opacity-80">Elapsed Time</p>
-      <p id="elapsed-time" class="text-4xl font-mono font-bold">00:00:00</p>
+
+    <div id="timer-status">
+      <p class="timer-label">Time</p>
+      <p id="elapsed-time" class="timer-time">00:00:00</p>
     </div>
-    
-    <div id="timer-buttons" class="flex justify-center gap-4">
-      <button id="start-btn" class="btn btn-lg btn-accent" onclick="startTimer()">
-        ▶️ Start Cooking
-      </button>
-      <button id="pause-btn" class="btn btn-lg btn-warning hidden" onclick="pauseTimer()">
-        ⏸️ Pause
-      </button>
-      <button id="resume-btn" class="btn btn-lg btn-success hidden" onclick="resumeTimer()">
-        ▶️ Resume
-      </button>
-      <button id="reset-btn" class="btn btn-lg btn-ghost hidden" onclick="resetTimer()">
-        🔄 Reset
-      </button>
-    </div>
+  </div>
+
+  <div id="timer-buttons" class="timer-actions">
+    <button id="start-btn" class="btn btn--fire btn--lg" onclick="startTimer()">
+      Fire
+    </button>
+    <button id="pause-btn" class="btn btn--primary btn--lg hidden" onclick="pauseTimer()">
+      Hold
+    </button>
+    <button id="resume-btn" class="btn btn--fire btn--lg hidden" onclick="resumeTimer()">
+      Fire
+    </button>
+    <button id="reset-btn" class="btn btn--ghost btn--lg hidden" onclick="resetTimer()">
+      86
+    </button>
   </div>
 </div>

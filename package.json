@@ -8,6 +8,7 @@
     "validate": "bun scripts/validate-recipes.js",
     "generate": "bun scripts/generate-process.js",
     "image-to-recipe": "bun scripts/image-to-recipe.js",
+    "extract-pictures": "bun scripts/extract-food-pictures.js",
     "prebuild": "bun run validate"
   },
   "keywords": [],

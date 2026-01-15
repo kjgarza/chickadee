@@ -1,0 +1,1001 @@
+/* ========================================
+   PRO KITCHEN / LINE COOK DESIGN SYSTEM
+   Industrial ticket-system aesthetic
+   ======================================== */
+
+/* ----------------------------------------
+   CSS CUSTOM PROPERTIES
+   ---------------------------------------- */
+:root {
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 3rem;
+  --text-4xl: 4rem;
+
+  /* Base Colors - Industrial Black/White */
+  --ticket-white: #F5F5F0;
+  --ticket-cream: #E8E4DC;
+  --ink-black: #1A1A1A;
+  --ink-grey: #2D2D2D;
+  --metal-grey: #4A4A4A;
+  --rail-silver: #6B6B6B;
+
+  /* Urgency Red - The ONLY accent */
+  --fire-red: #DC2626;
+  --fire-red-dim: #991B1B;
+  --fire-red-glow: rgba(220, 38, 38, 0.3);
+
+  /* Status Semantic Colors */
+  --status-waiting: var(--metal-grey);
+  --status-firing: var(--fire-red);
+  --status-ready: var(--ink-black);
+  --status-done: var(--rail-silver);
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  /* Borders */
+  --border-width: 2px;
+  --border-thick: 4px;
+}
+
+/* Dark Theme */
+[data-theme="kitchen-dark"] {
+  --ticket-white: #1A1A1A;
+  --ticket-cream: #2D2D2D;
+  --ink-black: #F5F5F0;
+  --ink-grey: #E8E4DC;
+  --metal-grey: #9CA3AF;
+  --rail-silver: #6B7280;
+}
+
+/* ----------------------------------------
+   BASE STYLES
+   ---------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background-color: var(--ticket-cream);
+  color: var(--ink-black);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--ink-black);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------
+   LAYOUT
+   ---------------------------------------- */
+.container {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: var(--space-4);
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* ----------------------------------------
+   TYPOGRAPHY
+   ---------------------------------------- */
+h1, h2, h3 {
+  font-weight: 700;
+  margin: 0 0 var(--space-4) 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+h1 { font-size: var(--text-2xl); }
+h2 { font-size: var(--text-xl); }
+h3 { font-size: var(--text-lg); }
+
+/* ----------------------------------------
+   TICKET COMPONENTS
+   ---------------------------------------- */
+.ticket {
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  position: relative;
+  margin-bottom: var(--space-4);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-3) var(--space-4);
+  border-bottom: var(--border-width) solid var(--ink-black);
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.ticket-body {
+  padding: var(--space-4);
+}
+
+.ticket-footer {
+  padding: var(--space-3) var(--space-4);
+  border-top: var(--border-width) dashed var(--metal-grey);
+  font-size: var(--text-sm);
+  color: var(--metal-grey);
+}
+
+/* Perforated tear line */
+.ticket-tear {
+  height: 0;
+  border-bottom: var(--border-width) dashed var(--metal-grey);
+  margin: 0 calc(var(--space-4) * -1);
+  position: relative;
+}
+
+/* Ticket States */
+.ticket--waiting {
+  border-left: var(--border-thick) solid var(--status-waiting);
+}
+
+.ticket--firing {
+  border-left: var(--border-thick) solid var(--status-firing);
+  animation: urgent-pulse 1.5s ease-in-out infinite;
+}
+
+.ticket--done {
+  opacity: 0.5;
+  border-left: var(--border-thick) solid var(--status-done);
+}
+
+.ticket--done .ticket-instruction {
+  text-decoration: line-through;
+  text-decoration-color: var(--fire-red);
+}
+
+/* ----------------------------------------
+   TIMER PANEL
+   ---------------------------------------- */
+.timer-panel {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  margin-bottom: var(--space-6);
+}
+
+.timer-panel .ticket-header {
+  background: var(--fire-red);
+  color: var(--ticket-white);
+}
+
+.timer-display {
+  padding: var(--space-6) var(--space-4);
+  text-align: center;
+}
+
+.timer-time {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.1em;
+}
+
+@media (min-width: 640px) {
+  .timer-time {
+    font-size: var(--text-4xl);
+  }
+}
+
+.timer-label {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  opacity: 0.7;
+  margin-bottom: var(--space-2);
+}
+
+.timer-status {
+  display: inline-block;
+  padding: var(--space-1) var(--space-3);
+  background: var(--ticket-white);
+  color: var(--ink-black);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.timer-status--firing {
+  background: var(--fire-red);
+  color: var(--ticket-white);
+  animation: status-blink 1s ease-in-out infinite;
+}
+
+.timer-status--held {
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+}
+
+.timer-actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-top: var(--border-width) solid var(--metal-grey);
+}
+
+/* ----------------------------------------
+   BUTTONS
+   ---------------------------------------- */
+.btn {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: var(--space-3) var(--space-6);
+  border: var(--border-width) solid var(--ink-black);
+  background: var(--ticket-white);
+  color: var(--ink-black);
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn--primary {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+}
+
+.btn--primary:hover {
+  background: var(--metal-grey);
+}
+
+.btn--fire {
+  background: var(--fire-red);
+  color: var(--ticket-white);
+  border-color: var(--fire-red);
+}
+
+.btn--fire:hover {
+  background: var(--fire-red-dim);
+  border-color: var(--fire-red-dim);
+}
+
+.btn--ghost {
+  background: transparent;
+  border-color: var(--metal-grey);
+  color: var(--metal-grey);
+}
+
+.btn--ghost:hover {
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+}
+
+.btn--sm {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-xs);
+}
+
+.btn--lg {
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--text-base);
+}
+
+/* ----------------------------------------
+   STEP TICKET (ORDER TICKET)
+   ---------------------------------------- */
+.step-ticket {
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  margin-bottom: var(--space-4);
+  position: relative;
+}
+
+.step-ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.step-number {
+  font-weight: 800;
+}
+
+.step-resource {
+  padding: var(--space-1) var(--space-2);
+  background: var(--ticket-white);
+  color: var(--ink-black);
+  font-size: 0.65rem;
+}
+
+.step-countdown-badge {
+  font-variant-numeric: tabular-nums;
+}
+
+.step-ticket-body {
+  padding: var(--space-4);
+}
+
+.step-instruction {
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
+}
+
+.step-duration {
+  font-size: var(--text-sm);
+  color: var(--metal-grey);
+}
+
+.step-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: var(--border-width) solid var(--ink-black);
+}
+
+/* Step states */
+.step-ticket--waiting {
+  border-left: var(--border-thick) solid var(--status-waiting);
+}
+
+.step-ticket--firing {
+  border-left: var(--border-thick) solid var(--status-firing);
+  animation: urgent-pulse 1.5s ease-in-out infinite;
+}
+
+.step-ticket--next {
+  border-left: var(--border-thick) solid var(--fire-red);
+}
+
+.step-ticket--done {
+  opacity: 0.5;
+  border-left: var(--border-thick) solid var(--status-done);
+}
+
+.step-ticket--done .step-instruction {
+  text-decoration: line-through;
+  text-decoration-color: var(--fire-red);
+}
+
+/* Countdown display in step */
+.step-countdown {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--fire-red);
+}
+
+.step-countdown--done {
+  color: var(--status-done);
+}
+
+/* ----------------------------------------
+   TIMELINE / TICKET RAIL
+   ---------------------------------------- */
+.ticket-rail {
+  position: relative;
+  padding-left: var(--space-6);
+}
+
+.ticket-rail::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(
+    to bottom,
+    var(--rail-silver) 0%,
+    var(--metal-grey) 50%,
+    var(--rail-silver) 100%
+  );
+  border-radius: 2px;
+}
+
+.ticket-rail-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+  padding: var(--space-2) var(--space-3);
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ----------------------------------------
+   PARALLEL STEPS BLOCK
+   ---------------------------------------- */
+.parallel-block {
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  border-left: var(--border-thick) solid var(--metal-grey);
+  margin-bottom: var(--space-4);
+}
+
+.parallel-header {
+  padding: var(--space-2) var(--space-3);
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.parallel-body {
+  padding: var(--space-4);
+}
+
+.parallel-action {
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--ticket-cream);
+}
+
+.parallel-action:last-child {
+  border-bottom: none;
+}
+
+.parallel-action-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: var(--space-2);
+}
+
+/* ----------------------------------------
+   RECIPE CARDS (TICKET STUBS)
+   ---------------------------------------- */
+.recipe-stub {
+  display: block;
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  margin-bottom: var(--space-4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.recipe-stub:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 var(--ink-black);
+  text-decoration: none;
+}
+
+.recipe-stub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-2) var(--space-3);
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.recipe-stub-body {
+  padding: var(--space-4);
+}
+
+.recipe-stub-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+  text-transform: uppercase;
+}
+
+.recipe-stub-description {
+  font-size: var(--text-sm);
+  color: var(--metal-grey);
+  margin-bottom: var(--space-3);
+}
+
+.recipe-stub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--metal-grey);
+}
+
+/* Difficulty dots */
+.difficulty-dots {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.difficulty-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--metal-grey);
+}
+
+.difficulty-dot--filled {
+  background: var(--fire-red);
+}
+
+/* ----------------------------------------
+   BADGES / STAMPS
+   ---------------------------------------- */
+.badge {
+  display: inline-block;
+  padding: var(--space-1) var(--space-2);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: var(--border-width) solid currentColor;
+  background: transparent;
+}
+
+.badge--fire {
+  color: var(--fire-red);
+  border-color: var(--fire-red);
+}
+
+.badge--ghost {
+  color: var(--metal-grey);
+  border-color: var(--metal-grey);
+}
+
+.badge--solid {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  border-color: var(--ink-black);
+}
+
+/* Stamp effect */
+.badge--stamp {
+  transform: rotate(-2deg);
+}
+
+/* ----------------------------------------
+   SERVING SELECTOR (COVERS)
+   ---------------------------------------- */
+.covers-selector {
+  margin-bottom: var(--space-6);
+}
+
+.covers-label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-2);
+  color: var(--metal-grey);
+}
+
+.covers-buttons {
+  display: flex;
+  gap: 0;
+  border: var(--border-width) solid var(--ink-black);
+}
+
+.covers-btn {
+  flex: 1;
+  padding: var(--space-3);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-align: center;
+  background: var(--ticket-white);
+  color: var(--ink-black);
+  border: none;
+  border-right: var(--border-width) solid var(--ink-black);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.covers-btn:last-child {
+  border-right: none;
+}
+
+.covers-btn:hover {
+  background: var(--ticket-cream);
+}
+
+.covers-btn--active {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+}
+
+/* ----------------------------------------
+   INGREDIENTS LIST
+   ---------------------------------------- */
+.ingredients-panel {
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  margin-bottom: var(--space-6);
+}
+
+.ingredients-header {
+  padding: var(--space-3) var(--space-4);
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.ingredients-list {
+  padding: var(--space-4);
+  list-style: none;
+  margin: 0;
+}
+
+.ingredient-item {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--ticket-cream);
+  font-size: var(--text-sm);
+}
+
+.ingredient-item:last-child {
+  border-bottom: none;
+}
+
+.ingredient-qty {
+  min-width: 4ch;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.ingredient-name {
+  flex: 1;
+}
+
+.ingredient-note {
+  color: var(--metal-grey);
+  font-size: var(--text-xs);
+}
+
+/* ----------------------------------------
+   FILTER BUTTONS
+   ---------------------------------------- */
+.filter-group {
+  margin-bottom: var(--space-6);
+}
+
+.filter-label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--space-2);
+  color: var(--metal-grey);
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.filter-btn {
+  padding: var(--space-2) var(--space-3);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--ticket-white);
+  color: var(--metal-grey);
+  border: var(--border-width) solid var(--metal-grey);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.filter-btn:hover {
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+}
+
+.filter-btn--active {
+  background: var(--ink-black);
+  color: var(--ticket-white);
+  border-color: var(--ink-black);
+}
+
+/* ----------------------------------------
+   ALERTS / NOTICES
+   ---------------------------------------- */
+.notice {
+  padding: var(--space-4);
+  background: var(--ticket-white);
+  border: var(--border-width) solid var(--ink-black);
+  border-left: var(--border-thick) solid var(--fire-red);
+  margin-bottom: var(--space-4);
+}
+
+.notice--success {
+  border-left-color: var(--status-done);
+}
+
+.notice-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-2);
+}
+
+/* ----------------------------------------
+   HEADER & FOOTER
+   ---------------------------------------- */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-4) 0;
+  margin-bottom: var(--space-6);
+  border-bottom: var(--border-width) solid var(--ink-black);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.nav-link {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--metal-grey);
+}
+
+.nav-link:hover {
+  color: var(--ink-black);
+  text-decoration: none;
+}
+
+.site-logo {
+  font-size: var(--text-xl);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-black);
+}
+
+.site-logo:hover {
+  text-decoration: none;
+  color: var(--fire-red);
+}
+
+.theme-toggle {
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  border: var(--border-width) solid var(--metal-grey);
+  color: var(--metal-grey);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: var(--metal-grey);
+  color: var(--ticket-white);
+}
+
+.site-footer {
+  margin-top: var(--space-8);
+  padding: var(--space-6) 0;
+  border-top: var(--border-width) solid var(--metal-grey);
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--metal-grey);
+}
+
+.site-footer a {
+  color: var(--metal-grey);
+}
+
+.site-footer a:hover {
+  color: var(--ink-black);
+}
+
+/* ----------------------------------------
+   ANIMATIONS
+   ---------------------------------------- */
+@keyframes urgent-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 var(--fire-red-glow);
+    border-left-color: var(--fire-red);
+  }
+  50% {
+    box-shadow: 0 0 0 8px transparent;
+    border-left-color: var(--fire-red-dim);
+  }
+}
+
+@keyframes status-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes ticket-print {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-print {
+  animation: ticket-print 0.3s ease-out forwards;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ----------------------------------------
+   RESPONSIVE ADJUSTMENTS
+   ---------------------------------------- */
+@media (max-width: 640px) {
+  .timer-time {
+    font-size: var(--text-2xl);
+  }
+
+  .timer-actions {
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .timer-actions .btn {
+    width: 100%;
+  }
+
+  .step-image {
+    height: 140px;
+  }
+
+  .covers-buttons {
+    flex-wrap: wrap;
+  }
+
+  .covers-btn {
+    flex: 0 0 auto;
+    min-width: 3rem;
+  }
+}
+
+/* ----------------------------------------
+   UTILITY CLASSES
+   ---------------------------------------- */
+/* ----------------------------------------
+   ABOUT PAGE / PROSE
+   ---------------------------------------- */
+.about-page {
+  max-width: 38rem;
+}
+
+.about-page p {
+  line-height: 1.8;
+  margin-bottom: var(--space-6);
+  color: var(--ink-grey);
+}
+
+.about-page h2 {
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-4);
+  font-size: var(--text-lg);
+}
+
+.about-page ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: var(--space-6);
+}
+
+.about-page li {
+  position: relative;
+  padding-left: var(--space-6);
+  margin-bottom: var(--space-4);
+  line-height: 1.7;
+  color: var(--ink-grey);
+}
+
+.about-page li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--metal-grey);
+}
+
+.about-page a {
+  color: var(--fire-red);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-page a:hover {
+  color: var(--fire-red-dim);
+}
+
+.about-page strong {
+  color: var(--ink-black);
+  font-weight: 600;
+}
+
+/* ----------------------------------------
+   UTILITY CLASSES
+   ---------------------------------------- */
+.text-fire { color: var(--fire-red); }
+.text-muted { color: var(--metal-grey); }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-upper { text-transform: uppercase; }
+.text-mono { font-variant-numeric: tabular-nums; }
+
+.mt-4 { margin-top: var(--space-4); }
+.mt-6 { margin-top: var(--space-6); }
+.mb-2 { margin-bottom: var(--space-2); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mb-6 { margin-bottom: var(--space-6); }
+
+.flex { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: var(--space-2); }
+.gap-3 { gap: var(--space-3); }
+.gap-4 { gap: var(--space-4); }
