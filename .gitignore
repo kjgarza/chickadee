@@ -141,6 +141,6 @@ vite.config.ts.timestamp-*
 .vite/
 
 _site/
-*.jpg 
+photos/
 *.jpeg
 *.gif
