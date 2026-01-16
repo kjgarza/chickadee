@@ -676,5 +676,3559 @@
       "birne",
       "schinken"
     ]
+  },
+  "hahnchenbrust-mit-brokkoli-paprikasosse": {
+    "slug": "hahnchenbrust-mit-brokkoli-paprikasosse",
+    "title": "Hähnchenbrust mit Brokkoli & Paprikasoße",
+    "description": "Knusprige Hähnchenbrustfilets mit Brokkoli, Jasminreis und einer leckeren Paprikasoße. Ein ausgewogenes Gericht für 2 bis 4 Personen.",
+    "difficulty": "easy",
+    "totalTimeMinutes": 60,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Hähnchenbrustfilet",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 250,
+          "3": 375,
+          "4": 500,
+          "5": 625,
+          "6": 750
+        }
+      },
+      {
+        "name": "geriebener Hartkäse",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 40,
+          "4": 40,
+          "5": 60,
+          "6": 80
+        }
+      },
+      {
+        "name": "Panko-Mehl",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 30,
+          "3": 50,
+          "4": 60,
+          "5": 75,
+          "6": 90
+        }
+      },
+      {
+        "name": "Jasminreis",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 225,
+          "4": 300,
+          "5": 375,
+          "6": 450
+        }
+      },
+      {
+        "name": "Kochsahne",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "rote Paprika",
+        "unit": "",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Gewürzmischung \"Hello Paprika\"",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 4,
+          "4": 4,
+          "5": 6,
+          "6": 8
+        }
+      },
+      {
+        "name": "Brokkoli",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 250,
+          "3": 500,
+          "4": 500,
+          "5": 625,
+          "6": 750
+        }
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 34,
+          "3": 51,
+          "4": 68,
+          "5": 85,
+          "6": 102
+        }
+      },
+      {
+        "name": "Hühnerbrühe (Pulver)",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Öl",
+        "unit": "EL",
+        "notes": "Zum Beträufeln der Hähnchenbrüste und zum Anbraten der Paprikasuße.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Wasser",
+        "unit": "ml",
+        "notes": "Zum Reiskochen, sowie ausreichend zum Brokkoli kochen und Soße zubereiten.",
+        "quantitiesByServings": {
+          "2": 300,
+          "3": 450,
+          "4": 600,
+          "5": 750,
+          "6": 900
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "Zum Würzen von Wasser, Reis, Brokkoli und Soße.",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "Zum Würzen der Soße.",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "reiskochanleitung",
+        "instruction": "Reis in einem Sieb mit kaltem Wasser so lange abspülen, bis das Wasser klar hindurchfließt. In einen kleinen Topf 300 ml [450 ml | 600 ml] heißes Wasser füllen, leicht salzen* und einmal aufkochen lassen. Reis einrühren und bei niedriger Hitze ca. 10 Min. abgedeckt köcheln lassen. Danach den Topf vom Herd nehmen und mindestens 10 Min. abgedeckt ziehen lassen.",
+        "durationMinutes": 25,
+        "ingredients": [
+          "Jasminreis",
+          "Wasser",
+          "Salz"
+        ],
+        "notes": "Reis unbedingt vorher gut spülen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-1.jpg"
+      },
+      {
+        "id": "haehnchenbrust-backen",
+        "instruction": "Pankomehl und geriebenen Hartkäse auf einem tiefen Teller miteinander vermengen. Hähnchenbrüste in eine große Schüssel geben und komplett mit Mayonnaise vermengen, bis diese vollständig überzogen sind. Hähnchenbrüste in der Käse-Panko-Mischung wälzen und diese fest andrücken. Panierte Hähnchenbrüste auf einem mit Backpapier belegten Backblech verteilen, mit 1 EL [1,5 EL | 2 EL] Öl beträufeln und im vorgeheizten Ofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) für 14–18 Min. goldbraun backen, bis sie innen nicht mehr rosa sind.",
+        "durationMinutes": 20,
+        "ingredients": [
+          "Panko-Mehl",
+          "geriebener Hartkäse",
+          "Hähnchenbrustfilet",
+          "Mayonnaise",
+          "Öl"
+        ],
+        "notes": "Backofen vorheizen auf 220 °C.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-2.jpg"
+      },
+      {
+        "id": "paprika-brokkoli-vorbereiten",
+        "instruction": "Einen großen Topf mit reichlich heißem Wasser füllen, salzen* und zum Kochen bringen. Paprika halbieren, Kerngehäuse entfernen und Paprikahälften in 1 cm dünne Streifen schneiden. Brokkoli in mundgerechte Röschen schneiden oder brechen.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "rote Paprika",
+          "Brokkoli",
+          "Salz",
+          "Wasser"
+        ],
+        "notes": "Brokkoli und Paprika während das Hähnchen backt vorbereiten.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-3.jpg"
+      },
+      {
+        "id": "soße-kochen",
+        "instruction": "In einer großen Pfanne 1 EL [1,5 EL | 2 EL] Öl erhitzen und Paprikastreifen darin 4–6 Min. farblos anschwitzen. Pfanneninhalt mit 50 ml [75 ml | 100 ml] Wasser*, Hühnerbrühpulver, Gewürzmischung \"Hello Paprika\" und Kochsahne ablöschen, alles verrühren und weitere 2 Min. köcheln lassen, bis die Soße etwas eingedickt ist. Soße mit Salz* und Pfeffer* abschmecken.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "rote Paprika",
+          "Öl",
+          "Wasser",
+          "Hühnerbrühe",
+          "Gewürzmischung \"Hello Paprika\"",
+          "Kochsahne",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-4.jpg"
+      },
+      {
+        "id": "brokkoli-kochen",
+        "instruction": "Brokkoliröschen im großen Topf für 3–4 Min. gar kochen und anschließend durch ein Sieb abgießen.",
+        "durationMinutes": 7,
+        "ingredients": [
+          "Brokkoli",
+          "Wasser",
+          "Salz"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "instruction": "Reis nach der Kochzeit mit einer Gabel etwas auflockern. Knusprige Hähnchenbrüste, Brokkoli, Reis und Paprikasoße auf Tellern anrichten und genießen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Hähnchenbrustfilet",
+          "Brokkoli",
+          "Jasminreis",
+          "Paprikasoße"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "Hähnchen",
+      "Brokkoli",
+      "Paprika",
+      "Reis",
+      "Sahnesoße",
+      "backofen",
+      "einfach",
+      "Hauptgericht"
+    ]
+  },
+  "glasnudelsalat-mit-hackfleisch-und-gemuese": {
+    "slug": "glasnudelsalat-mit-hackfleisch-und-gemuese",
+    "title": "Glasnudelsalat mit Hackfleisch und Gemüse",
+    "description": "Ein leckerer Glasnudelsalat mit Hackfleisch, frischem Gemüse und einem pikanten Dressing mit Limette, Sojasoße und Chili.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 40,
+    "servings": {
+      "min": 2,
+      "max": 4.5,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Glasnudeln",
+        "unit": "g",
+        "notes": "Beachte, die Menge weicht durch Quellen ab.",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 225,
+          "6": 300
+        }
+      },
+      {
+        "name": "Simmentaler Rinderhackfleisch",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 300,
+          "3": 450,
+          "4": 600,
+          "5": 675,
+          "6": 900
+        }
+      },
+      {
+        "name": "Frühlingszwiebel",
+        "unit": "Stück",
+        "notes": "Weißer und grüner Teil getrennt schneiden.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 2.25,
+          "6": 3
+        }
+      },
+      {
+        "name": "rote Chilischote",
+        "unit": "Stück",
+        "notes": "Fein gehackt, scharf!",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Limette, gewaschen",
+        "unit": "Stück",
+        "notes": "Schale fein abreiben, vierteln.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Knoblauchzehe",
+        "unit": "Stück",
+        "notes": "Fein gehackt.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      },
+      {
+        "name": "Karotte",
+        "unit": "Stück",
+        "notes": "Geschält und in Streifen gehobelt.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 3.375,
+          "6": 4.5
+        }
+      },
+      {
+        "name": "Zucchini",
+        "unit": "Stück",
+        "notes": "Enden abschneiden, längs halbieren und in Streifen hobeln.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 3.375,
+          "6": 4.5
+        }
+      },
+      {
+        "name": "Erdnüsse",
+        "unit": "g",
+        "notes": "Zum Bestreuen.",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 22.5,
+          "6": 30
+        }
+      },
+      {
+        "name": "Sojasoße",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 25,
+          "3": 38,
+          "4": 50,
+          "5": 56.25,
+          "6": 75
+        }
+      },
+      {
+        "name": "Bulgogisoße",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 225,
+          "6": 300
+        }
+      },
+      {
+        "name": "Öl",
+        "unit": "TL",
+        "notes": "Zum Anbraten und Braten.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.25,
+          "6": 3
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "gemuese-schneiden",
+        "instruction": "Chili halbieren, entkernen und Chilihälften fein hacken (Achtung: scharf!). Weißen und grünen Teil der Frühlingszwiebeln getrennt voneinander in feine Ringe schneiden. Knoblauch abziehen und fein hacken. Karotte schälen und mit einem Gemüseschäler in längliche Streifen hobeln. Enden der Zucchini abschneiden, längs halbieren und mit dem Sparschäler in Streifen hobeln.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "rote Chilischote",
+          "Frühlingszwiebel",
+          "Knoblauchzehe",
+          "Karotte",
+          "Zucchini"
+        ],
+        "notes": "Tipp: Falls Hobeln zu aufwendig ist, kannst du Zucchini und Karotte auch in dünne Scheiben oder Stifte schneiden.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-1.jpg"
+      },
+      {
+        "id": "dressing-zubereiten",
+        "instruction": "Limette heiß abwaschen, Schale fein abreiben und Limette vierteln. In einer kleinen Schale Limettenabrieb, Saft aus 2 Limettenvierteln, Sojasoße, gehackten Chili nach Geschmack und eine Prise Zucker zu einem Dressing verrühren.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Limette",
+          "Sojasoße",
+          "rote Chilischote"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-2.jpg"
+      },
+      {
+        "id": "nudeln-kochen",
+        "instruction": "In einem großen Topf reichlich heißes Wasser füllen, kräftig salzen und einmal aufkochen lassen. Topf vom Herd nehmen und Glasnudeln darin 5–7 Minuten einweichen, bis sie weich sind. Glasnudeln nach der Garzeit in ein Sieb abgießen, mit kaltem Wasser spülen und abtropfen lassen.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Glasnudeln",
+          "Salz",
+          "Wasser"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-3.jpg"
+      },
+      {
+        "id": "fleisch-braten",
+        "instruction": "In einer großen Pfanne 1–2 TL Öl erhitzen. Hackfleisch darin für 6–8 Minuten krümelig anbraten, bis es durch und alle Flüssigkeit verkocht ist. Herd ausschalten und Bulgogisoße unterrühren.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Simmentaler Rinderhackfleisch",
+          "Öl",
+          "Bulgogisoße"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-4.jpg"
+      },
+      {
+        "id": "gemuese-anbraten",
+        "instruction": "In einer zweiten Pfanne 1–2 TL Öl erhitzen, weißen Teil der Frühlingszwiebel, gehackten Knoblauch, gehobelte Karotten und Zucchini hinzufügen und für 3–5 Minuten anschwitzen. Glasnudeln und Dressing hinzufügen, gut vermengen und für 1–2 Minuten anbraten. Mit Salz und Pfeffer abschmecken. Blätter vom Koriander abpfen und fein hacken.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Frühlingszwiebel",
+          "Knoblauchzehe",
+          "Karotte",
+          "Zucchini",
+          "Glasnudeln",
+          "Dressing",
+          "Salz",
+          "Pfeffer",
+          "Koriander"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-5.jpg"
+      },
+      {
+        "id": "annichten",
+        "instruction": "Glasnudelsalat auf Tellern verteilen und Hackfleisch dazu anrichten. Mit Erdnüssen und grünem Teil der Frühlingszwiebel toppen. Nach Belieben gehackten Koriander und Chili darüberstreuen. Restliche Limettenspalten dazureichen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Glasnudeln",
+          "Simmentaler Rinderhackfleisch",
+          "Erdnüsse",
+          "Frühlingszwiebel",
+          "Koriander",
+          "rote Chilischote",
+          "Limette"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "deutsch",
+      "salat",
+      "glasnudeln",
+      "hackfleisch",
+      "gemuese",
+      "schnell",
+      "hauptgericht"
+    ]
+  },
+  "gemuese-lachs-mit-porree-und-linsen": {
+    "slug": "gemuese-lachs-mit-porree-und-linsen",
+    "title": "Gemüse Lachs mit Porree und Linsen",
+    "description": "Ein leckeres Gericht mit Karotten, Sellerie, Porree, Chili und Linsen, serviert mit Lachs. Einfach zuzubereiten und perfekt für 2-4 Personen.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 40,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Karotte DE",
+        "unit": "Stück",
+        "notes": "Karotte schälen und in kleine Würfel schneiden.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Selleriestangen",
+        "unit": "Stück",
+        "notes": "Sellerie klein würfeln.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Porree (NL|BE|DE)",
+        "unit": "Stück",
+        "notes": "Porree in 0,5 cm breite Ringe schneiden.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "rote Chilischote (ES|NL|MA)",
+        "unit": "Stück",
+        "notes": "Chilischote scharf, halbieren, Kerne entfernen und in feine Stücke schneiden.",
+        "quantitiesByServings": {
+          "2": 0.5,
+          "3": 0.75,
+          "4": 1,
+          "5": 1.25,
+          "6": 1.5
+        }
+      },
+      {
+        "name": "Schnittlauch/Thymian",
+        "unit": "g",
+        "notes": "Thymianblätter abzupfen und grob hacken, Schnittlauch in feine Röllchen schneiden.",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "name": "braune Linsen",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "Kochsahne (S)",
+        "unit": "g",
+        "notes": "Sahne wird zum Gemüse gegeben.",
+        "quantitiesByServings": {
+          "2": 250,
+          "3": 375,
+          "4": 500,
+          "5": 625,
+          "6": 750
+        }
+      },
+      {
+        "name": "Lachsfilet (6)",
+        "unit": "g",
+        "notes": "Lachs würzen und backen.",
+        "quantitiesByServings": {
+          "2": 250,
+          "3": 375,
+          "4": 500,
+          "5": 625,
+          "6": 750
+        }
+      },
+      {
+        "name": "Gemüsebrühe",
+        "unit": "g",
+        "notes": "Gemüsebrühepulver für die Soße.",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Salz*",
+        "unit": "nach Geschmack",
+        "notes": "Zum Würzen des Gemüses und der Soße.",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer*",
+        "unit": "nach Geschmack",
+        "notes": "Zum Würzen.",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Öl",
+        "unit": "EL",
+        "notes": "Zum Braten des Gemüses und Würzen des Lachsfilets.",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "gemuese-vorbereiten",
+        "instruction": "Karotte schälen. Karotte und Selleriestange in kleine Würfel schneiden. Porree in 0,5 cm breite Ringe schneiden. Chili längs halbieren, Kerngehäuse entfernen und Chilihälften in feine Stücke schneiden. (Achtung: scharf!)",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Karotte DE",
+          "Selleriestangen",
+          "Porree (NL|BE|DE)",
+          "rote Chilischote (ES|NL|MA)"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-1.jpg"
+      },
+      {
+        "id": "kraeuter-schneiden",
+        "instruction": "Blätter vom Thymian abzupfen und grob hacken. Schnittlauch in feine Röllchen schneiden.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Schnittlauch/Thymian"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-2.jpg"
+      },
+      {
+        "id": "gemuese-braten",
+        "instruction": "1 EL Öl bei mittlerer Hitze in einer großen Pfanne erwärmen. Karotten- und Selleriewürfel, Porreeringe, Chiliringe (Achtung: scharf!), gehackten Thymian und Schnittlauch in die Pfanne geben und 8-12 Minuten braten, bis das Gemüse weich ist. Mit Salz würzen.",
+        "durationMinutes": 12,
+        "ingredients": [
+          "Öl",
+          "Karotte DE",
+          "Selleriestangen",
+          "Porree (NL|BE|DE)",
+          "rote Chilischote (ES|NL|MA)",
+          "Schnittlauch/Thymian",
+          "Salz*"
+        ],
+        "notes": "Gemüse muss weich sein.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-3.jpg"
+      },
+      {
+        "id": "waehrenddessen-lachs-wuerzen-backen",
+        "instruction": "Lachsfilets mit Salz, Pfeffer und 1 EL Öl würzen. Lachs auf einem mit Backpapier belegten Backblech im vorgeheizten Ofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) 12-14 Minuten backen, bis der Fisch innen nicht mehr glasig ist.",
+        "durationMinutes": 14,
+        "ingredients": [
+          "Lachsfilet (6)",
+          "Salz*",
+          "Pfeffer*",
+          "Öl"
+        ],
+        "notes": "Backofen vorheizen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-4.jpg"
+      },
+      {
+        "id": "linsen-und-gemuese-kochen",
+        "instruction": "Linsen in einem Sieb unter kaltem Wasser abspülen, bis das Wasser klar hindurchläuft. Linsen zum Gemüse geben. Gemüsebrühpulver und Sahne zum Gemüse geben und nochmals aufkochen, bis die Soße cremig und eingedickt ist. Mit Salz und Pfeffer abschmecken.",
+        "durationMinutes": 8,
+        "ingredients": [
+          "braune Linsen",
+          "Gemüsebrühe",
+          "Kochsahne (S)",
+          "Salz*",
+          "Pfeffer*"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten-und-servieren",
+        "instruction": "Cremiges Porreegemüse auf Teller geben, Lachs darauf anrichten und genießen.",
+        "durationMinutes": 2,
+        "ingredients": [
+          "Porree (NL|BE|DE)",
+          "Lachsfilet (6)"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "deutsche-kueche",
+      "fischgericht",
+      "gemuese",
+      "einfach",
+      "gesund"
+    ]
+  },
+  "oven-roasted-sweet-potatoes-with-tomato-salsa-beans-and-guacamole": {
+    "slug": "oven-roasted-sweet-potatoes-with-tomato-salsa-beans-and-guacamole",
+    "title": "Oven Roasted Sweet Potatoes with Tomato Salsa, Beans, and Guacamole",
+    "description": "A delicious recipe for oven-roasted sweet potatoes served with fresh tomato salsa, spiced beans, and creamy guacamole, topped with lime and herbs. Perfect for 2 to 4 people.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 50,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "sweet potatoes",
+        "unit": "pieces",
+        "notes": "unpeeled, halved lengthwise",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "sweet corn cob",
+        "unit": "pieces",
+        "notes": "kernels removed",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "kidney beans",
+        "unit": "cans",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "seasoning mix \"Hello Fiesta\"",
+        "unit": "grams",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 5,
+          "4": 6,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "avocado",
+        "unit": "pieces",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "spring onion",
+        "unit": "pieces",
+        "notes": "white and green parts separated",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "corn",
+        "unit": "cups",
+        "notes": "drained",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "lime, washed and zested",
+        "unit": "pieces",
+        "notes": "zest for topping",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "lime wedges",
+        "unit": "pieces",
+        "notes": "for garnish and juice",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 3,
+          "4": 6,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "tomato",
+        "unit": "pieces",
+        "notes": "stalk removed, chopped into 1 cm cubes",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 3,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "butter",
+        "unit": "grams",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 20,
+          "4": 20,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "parsley or chives",
+        "unit": "grams",
+        "notes": "finely chopped",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "cheese mix",
+        "unit": "grams",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 75,
+          "4": 100,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "sour cream",
+        "unit": "grams",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 150,
+          "4": 150,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "red chili pepper",
+        "unit": "pieces",
+        "notes": "use cautiously as chili heat varies",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "oil",
+        "unit": "tablespoons",
+        "notes": "plus extra for cooking",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "salt",
+        "unit": "",
+        "notes": "to taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "pepper",
+        "unit": "",
+        "notes": "to taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "sugar",
+        "unit": "teaspoons",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "preheat-oven-and-prepare-sweet-potatoes",
+        "instruction": "Preheat the oven to 220 °C (upper/lower heat) or 200 °C with convection. Halve the unpeeled sweet potatoes lengthwise and prick them several times with a fork. Season with oil, salt, and pepper, then place cut side down on a baking sheet lined with parchment paper.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "sweet potatoes",
+          "oil",
+          "salt",
+          "pepper"
+        ],
+        "notes": "Use middle rack for baking.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-1.jpg"
+      },
+      {
+        "id": "bake-sweet-potatoes",
+        "instruction": "Bake the prepared sweet potatoes in the preheated oven on the middle rack for 30 to 35 minutes until they are soft.",
+        "durationMinutes": 35,
+        "ingredients": [
+          "sweet potatoes"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-2.jpg"
+      },
+      {
+        "id": "prepare-vegetables",
+        "instruction": "Cut the chili pepper in half, remove seeds and veins, then cut into fine strips (careful: it is hot!). Separate the white and green parts of the spring onions and cut them into fine rings. Drain kidney beans and corn in a sieve and rinse under water until clear. Peel garlic and finely chop the herbs.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "chili pepper",
+          "spring onion",
+          "kidney beans",
+          "corn",
+          "garlic",
+          "parsley or chives"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-3.jpg"
+      },
+      {
+        "id": "make-tomato-salsa",
+        "instruction": "Halve tomatoes, remove stalks, and dice into 1 cm cubes. Place diced tomatoes in a small bowl. Add oil, sugar, juice of lime wedges, spring onion rings, and chili strips. Mix well and season with salt and pepper to taste.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "tomato",
+          "oil",
+          "sugar",
+          "lime wedges",
+          "spring onion",
+          "chili pepper",
+          "salt",
+          "pepper"
+        ],
+        "notes": "Adjust chili quantity based on heat preference.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-4.jpg"
+      },
+      {
+        "id": "cook-beans",
+        "instruction": "Heat oil in a large pan over medium heat. Add white spring onion rings and sauté for 1 to 2 minutes. Add garlic, beans, and corn and continue to cook all together. Add \"Hello Fiesta\" seasoning mix and fry for another 2 to 3 minutes. Season with salt and pepper.",
+        "durationMinutes": 7,
+        "ingredients": [
+          "oil",
+          "spring onion",
+          "garlic",
+          "kidney beans",
+          "corn",
+          "seasoning mix",
+          "salt",
+          "pepper"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-5.jpg"
+      },
+      {
+        "id": "prepare-toppings",
+        "instruction": "Wash lime well and zest the skin. Halve the lime and cut into 6 (for 2 servings) or 12 (for 4 servings) wedges. In a small bowl, mix lime zest with sour cream, salt, and pepper. Halve avocado, remove the stone, scoop the flesh into another small bowl, and mash coarsely with a fork. Squeeze juice from 2 (for 2 servings) or 3 (for 4 servings) lime wedges into the avocado mix. Add half of the chopped herbs and season with salt and pepper.",
+        "durationMinutes": 8,
+        "ingredients": [
+          "lime",
+          "sour cream",
+          "salt",
+          "pepper",
+          "avocado",
+          "lime wedges",
+          "parsley or chives"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-6.jpg"
+      },
+      {
+        "id": "assemble-and-serve",
+        "instruction": "Remove sweet potatoes from the oven and turn halves cut side up. Spread butter and cheese on top, then mash the filling with a fork. Serve sweet potato halves on plates, distribute bean-corn mix over them. Add tomato salsa and guacamole on top. Garnish with lime zest, remaining herbs, and lime wedges. Enjoy!",
+        "durationMinutes": 5,
+        "ingredients": [
+          "sweet potatoes",
+          "butter",
+          "cheese mix",
+          "kidney beans",
+          "corn",
+          "tomato salsa",
+          "avocado",
+          "lime",
+          "parsley or chives"
+        ],
+        "notes": ""
+      }
+    ],
+    "tags": [
+      "vegetarian",
+      "oven-baked",
+      "mexican-inspired",
+      "gluten-free"
+    ]
+  },
+  "miniballs-with-chili-mayo-and-vegetable-salad": {
+    "slug": "miniballs-with-chili-mayo-and-vegetable-salad",
+    "title": "Mini Bällchen mit Chili-Mayonnaise und Gemüsesalat",
+    "description": "Kleine Hackfleischbällchen mit würziger Chili-Mayonnaise und frischem Gemüsesalat aus Karotten, Gurken und Radieschen – ein leckeres und einfaches Gericht für 2 bis 4 Personen.",
+    "difficulty": "easy",
+    "totalTimeMinutes": 50,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Sweet-Chili-Soße",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 25,
+          "3": 50,
+          "4": 50,
+          "5": 50,
+          "6": 50
+        }
+      },
+      {
+        "name": "Limette, gewaschen",
+        "unit": "stück",
+        "notes": "BR | MX | VN Herkunft",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Karotte",
+        "unit": "stück",
+        "notes": "DE",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 3,
+          "4": 4,
+          "5": 4,
+          "6": 4
+        }
+      },
+      {
+        "name": "Gurke",
+        "unit": "stück",
+        "notes": "NL | ES | GR | BE Herkunft",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Koriander/Minze gemischt",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 20,
+          "5": 20,
+          "6": 20
+        }
+      },
+      {
+        "name": "Gemischtes Hackfleisch",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 300,
+          "3": 450,
+          "4": 600,
+          "5": 750,
+          "6": 900
+        }
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 68,
+          "3": 102,
+          "4": 136,
+          "5": 170,
+          "6": 204
+        }
+      },
+      {
+        "name": "Radieschen",
+        "unit": "g",
+        "notes": "DE Herkunft",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 200,
+          "4": 300,
+          "5": 375,
+          "6": 450
+        }
+      },
+      {
+        "name": "Siracha",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 8,
+          "3": 12,
+          "4": 15,
+          "5": 18,
+          "6": 22
+        }
+      },
+      {
+        "name": "Steinofenbaguette",
+        "unit": "stück",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Zucker",
+        "unit": "EL",
+        "notes": "Für das Dressing",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "",
+        "notes": "Nach Geschmack verwenden",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "",
+        "notes": "Nach Geschmack verwenden",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Öl",
+        "unit": "EL",
+        "notes": "Zum Anbraten",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "hackfleisch-zubereiten",
+        "instruction": "Limette heiß waschen und Limettenschale abreiben. In einer großen Schüssel Hackfleisch mit 1 TL (für 2 Personen), 1,5 TL (3 Personen) oder 2 TL (4 Personen) Limettenabrieb, Sweet-Chili-Soße, etwas Salz und Pfeffer gut verkneten. Aus der Masse 12 (2 Personen), 18 (3 Personen) oder 24 (4 Personen) Minibällchen formen und kurz kalt stellen.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Limette, gewaschen",
+          "Limettenschale (abrieb)",
+          "Gemischtes Hackfleisch",
+          "Sweet-Chili-Soße",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-1.jpg"
+      },
+      {
+        "id": "salat-vorbereiten",
+        "instruction": "Karotten schälen und in dünne lange Streifen hobeln. Gurke in dünne Scheiben schneiden. Radieschen grob raspeln. Blätter der Minze abzupfen und fein hacken. Limette halbieren.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Karotte",
+          "Gurke",
+          "Radieschen",
+          "Koriander/Minze gemischt",
+          "Limette, gewaschen"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-2.jpg"
+      },
+      {
+        "id": "salat-mariniere",
+        "instruction": "Limette in eine große Schüssel pressen und mit 1 EL (2 P), 1 EL (3 P) oder 2 EL (4 P) Zucker und restlichem Limettenabrieb zu einem Dressing verrühren. Gurkenscheiben, Karottenstreifen, geraspelte Radieschen und gehackte Minze hinzufügen, umrühren und marinieren lassen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Limette, gewaschen",
+          "Zucker",
+          "Karotte",
+          "Gurke",
+          "Radieschen",
+          "Koriander/Minze gemischt"
+        ],
+        "notes": "Dressing marinieren lassen",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-3.jpg"
+      },
+      {
+        "id": "chili-mayonnaise-verruehren",
+        "instruction": "Brot 5 – 8 Min. im Ofen backen bis es knusprig ist. In einer kleinen Schüssel Mayonnaise mit Siracha-Soße verrühren. Nach Geschmack mit Salz und Pfeffer nachwürzen.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Mayonnaise",
+          "Siracha",
+          "Salz",
+          "Pfeffer",
+          "Steinofenbaguette"
+        ],
+        "notes": "Brot im Ofen backen",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-4.jpg"
+      },
+      {
+        "id": "baellchen-anbraten",
+        "instruction": "In einer großen Pfanne mit mittlerer Stufe 1 EL (2 P), 1,5 EL (3 P) oder 2 EL (4 P) Öl erhitzen. Minibällchen in die Pfanne geben, etwas platt drücken und je Seite 3 - 4 Min. anbraten, bis das Fleisch durchgegart ist. Währenddessen Brot senkrecht halbieren, Brothälften aufschneiden (nicht ganz durchschneiden) und mit Chili-Mayonnaise bestreichen.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Öl",
+          "Gemischtes Hackfleisch",
+          "Steinofenbaguette",
+          "Mayonnaise",
+          "Siracha"
+        ],
+        "notes": "Minibällchen platt drücken für gleichmäßiges Braten",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "instruction": "Brothälften mit Gurkenscheiben belegen und Minibällchen darauf anrichten. Mit Karotte und Radieschen belegen und nach Belieben Koriander darauf anrichten. Brot zusammenklappen und mit dem restlichen Salat genießen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Steinofenbaguette",
+          "Gurke",
+          "Gemischtes Hackfleisch",
+          "Karotte",
+          "Radieschen",
+          "Koriander/Minze gemischt"
+        ],
+        "notes": "Tipp: Koriander hat einen besonderen Geschmack, probier ihn lieber bevor du ihn benutzt.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "german",
+      "easy",
+      "main-course",
+      "meat",
+      "salad",
+      "chili",
+      "mayonnaise",
+      "vegetable",
+      "quick-cooking"
+    ]
+  },
+  "zucchini-eggplant-ratatouille-bruschetta": {
+    "slug": "zucchini-eggplant-ratatouille-bruschetta",
+    "title": "Zucchini-Eggplant Ratatouille with Garlic Bruschetta",
+    "description": "A delicious ratatouille with zucchini, eggplant, and peppers baked with Italian herbs, served with flavorful garlic bruschetta topped with herb-seasoned cheese and basil.",
+    "difficulty": "easy",
+    "totalTimeMinutes": 40,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "red bell pepper",
+        "unit": "pcs",
+        "notes": "Cut into 1cm thick strips",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "zucchini",
+        "unit": "pcs",
+        "notes": "Cut ends off and dice into 2cm cubes",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "onion",
+        "unit": "pcs",
+        "notes": "Diced",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "eggplant",
+        "unit": "pcs",
+        "notes": "Cut ends off and dice into 2cm cubes",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "garlic cloves",
+        "unit": "pcs",
+        "notes": "Clove count for roasting and bruschetta",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "tomato sauce (Sugo)",
+        "unit": "g",
+        "notes": "For cooking ratatouille",
+        "quantitiesByServings": {
+          "2": 300,
+          "3": 400,
+          "4": 600,
+          "5": 800,
+          "6": 1000
+        }
+      },
+      {
+        "name": "spice mix 'Hello Smokey'",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "spice mix 'Hello Buon Appetito'",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 4,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "ciabatta bread",
+        "unit": "pcs",
+        "notes": "Cut lengthwise for bruschetta",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "basil or oregano (fresh herbs)",
+        "unit": "g",
+        "notes": "Leaves picked and chopped",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 12,
+          "6": 15
+        }
+      },
+      {
+        "name": "herding cheese (Hirtenkäse)",
+        "unit": "g",
+        "notes": "Crumbled and mixed with basil",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "oil",
+        "unit": "tablespoons",
+        "notes": "For cooking and drizzling",
+        "quantitiesByServings": {
+          "2": 1.5,
+          "3": 2,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "salt",
+        "unit": "to taste",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "pepper",
+        "unit": "to taste",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "preheat-oven",
+        "instruction": "Preheat the oven to 220°C top/bottom heat (200°C fan).",
+        "durationMinutes": 10,
+        "ingredients": [],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-1.jpg"
+      },
+      {
+        "id": "prepare-vegetables",
+        "instruction": "Wash vegetables and herbs. Halve the peppers, remove seeds and cut pepper halves into approximately 1 cm thick strips. Cut ends off zucchini and eggplant, then dice both into approx. 2 cm cubes. Pick leaves off oregano and chop roughly.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "red bell pepper",
+          "zucchini",
+          "eggplant",
+          "oregano"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-2.jpg"
+      },
+      {
+        "id": "assemble-ratatouille",
+        "instruction": "On a baking tray lined with parchment paper, distribute the pepper strips, oregano, zucchini, and eggplant cubes, leaving some space for the ciabatta. Drizzle with oil (depending on serving size: 1, 1.5, or 2 tablespoons), season with some salt and pepper, and bake on middle rack for about 15 minutes until the vegetables are soft.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "red bell pepper",
+          "oregano",
+          "zucchini",
+          "eggplant",
+          "oil",
+          "salt",
+          "pepper"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-3.jpg"
+      },
+      {
+        "id": "prepare-garlic-onion-sauce",
+        "instruction": "Peel and dice the garlic and onion. In a small pot, heat 1 tablespoon (2 EL for 3 servings, 2 EL for 4 servings) of oil on medium heat, press half of the garlic and sweat with the diced onion for about 3 minutes. Deglaze with the tomato sauce, add half (for 2 servings), three quarters (for 3 servings), or the whole amount (for 4 servings) of the spice mix 'Hello Smokey', and simmer the sauce for 2–3 minutes. Adjust seasoning with salt and pepper to taste.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "garlic cloves",
+          "onion",
+          "oil",
+          "tomato sauce (Sugo)",
+          "spice mix 'Hello Smokey'",
+          "salt",
+          "pepper"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-4.jpg"
+      },
+      {
+        "id": "prepare-bruschetta",
+        "instruction": "Press the remaining garlic into a small bowl and mix with 2 tablespoons (3 EL for 3 servings, 4 EL for 4 servings) of oil and the spice mix 'Hello Buon Appetito'. Slice the ciabatta lengthwise, brush with the spiced oil, season with salt and pepper to taste, then bake in the oven for 6–8 minutes until crispy alongside the vegetables.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "garlic cloves",
+          "oil",
+          "spice mix 'Hello Buon Appetito'",
+          "ciabatta bread",
+          "salt",
+          "pepper"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-5.jpg"
+      },
+      {
+        "id": "prepare-herbed-cheese",
+        "instruction": "Pick leaves off basil and chop roughly. Crumble the herding cheese with your hands in a small bowl. Mix the cheese with the chopped basil and lightly season with pepper.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "basil or oregano (fresh herbs)",
+          "herding cheese",
+          "pepper"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-6.jpg"
+      },
+      {
+        "id": "serve-dish",
+        "instruction": "Cut the ciabatta halves into large pieces. Distribute the ratatouille on plates, spoon the tomato sauce and herding cheese mixture over the top, and enjoy together with the garlic bruschetta.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "ciabatta bread",
+          "ratatouille",
+          "tomato sauce (Sugo)",
+          "herding cheese"
+        ],
+        "notes": ""
+      }
+    ],
+    "tags": [
+      "vegetarian",
+      "oven-baked",
+      "mediterranean",
+      "easy"
+    ]
+  },
+  "bulgur-spitzpaprika-salat-mit-avocado-und-zwiebel-joghurt-dip": {
+    "slug": "bulgur-spitzpaprika-salat-mit-avocado-und-zwiebel-joghurt-dip",
+    "title": "Bulgur Spitzpaprika Salat mit Avocado und Zwiebel-Joghurt-Dip",
+    "description": "Ein frischer Salat mit gekochtem Bulgur, gebackenen Spitzpaprika, karamellisierten Zwiebeln und einem Minz-Joghurt-Dip, serviert mit Avocado und Spinat. Perfekt für 2 bis 4 Personen als gesunde Mahlzeit.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 60,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Bulgur",
+        "unit": "g",
+        "notes": "Bulgur zum Kochen",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 200,
+          "4": 300,
+          "5": 375,
+          "6": 450
+        }
+      },
+      {
+        "name": "Pistazien",
+        "unit": "g",
+        "notes": "Grob gehackt, für die Füllung der Spitzpaprika",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 20,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "name": "Hirtenkäse",
+        "unit": "g",
+        "notes": "Zum Bröseln in die Spitzpaprika",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "Minze/Petersilie",
+        "unit": "g",
+        "notes": "Frisch, für Dip und Garnitur",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 15,
+          "6": 20
+        }
+      },
+      {
+        "name": "Limette (gewachsen)",
+        "unit": "Stück",
+        "notes": "Saft und Abrieb verwenden",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Joghurt",
+        "unit": "g",
+        "notes": "Für den Minz-Joghurt-Dip",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "Zwiebel",
+        "unit": "Stück",
+        "notes": "Geschält und in feine Streifen geschnitten",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Avocado",
+        "unit": "Stück",
+        "notes": "Halbiert, entsteint und in Scheiben geschnitten",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Babyspinat",
+        "unit": "g",
+        "notes": "Frisch, untergehoben in den Dip",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 75,
+          "4": 100,
+          "5": 125,
+          "6": 150
+        }
+      },
+      {
+        "name": "Süßer Senf",
+        "unit": "ml",
+        "notes": "Für das Dressing",
+        "quantitiesByServings": {
+          "2": 15,
+          "3": 22,
+          "4": 30,
+          "5": 37,
+          "6": 45
+        }
+      },
+      {
+        "name": "Balsamico-Creme",
+        "unit": "g",
+        "notes": "Zum Ablöschen der Zwiebeln",
+        "quantitiesByServings": {
+          "2": 12,
+          "3": 18,
+          "4": 24,
+          "5": 30,
+          "6": 36
+        }
+      },
+      {
+        "name": "Gewürzmischung \"Hello Fiesta\"",
+        "unit": "g",
+        "notes": "Zum Würzen des Bulgurs",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Wasser",
+        "unit": "ml",
+        "notes": "Für das Kochen des Bulgurs",
+        "quantitiesByServings": {
+          "2": 350,
+          "3": 470,
+          "4": 700,
+          "5": 875,
+          "6": 1050
+        }
+      },
+      {
+        "name": "Olivenöl",
+        "unit": "EL",
+        "notes": "Zum Beträufeln der Spitzpaprika und für den Dip",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "Zum Abschmecken",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "Zum Abschmecken",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "bulgur-kochen",
+        "instruction": "In einen kleinen Topf 350 ml (für 2 Personen) / 470 ml (für 3 Personen) / 700 ml (für 4 Personen) kochendes Wasser füllen. Gewürzmischung und Salz zugeben und einmal aufkochen lassen. Bulgur einrühren und bei niedriger Hitze ca. 15 Min. abgedeckt köcheln lassen. Dann Topf vom Herd nehmen und mindestens 10 Min. abgedeckt ziehen lassen.",
+        "durationMinutes": 30,
+        "ingredients": [
+          "Bulgur",
+          "Wasser",
+          "Gewürzmischung \"Hello Fiesta\"",
+          "Salz"
+        ],
+        "notes": "Wasser zum Kochen bringen, dann Bulgur garen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-1.jpg"
+      },
+      {
+        "id": "paprikas-backen",
+        "instruction": "Spitzpaprika halbieren, Kerne und Strunk entfernen. Spitzpaprika auf ein mit Backpapier belegtes Backblech legen und mit 1 EL (für 2 Personen), 1,5 EL (für 3 Personen) bzw. 2 EL (für 4 Personen) Olivenöl beträufeln. Pistazien grob hacken. Hirtenkäse mit den Händen in die Spitzpaprika bröseln. Pistazien darüber verteilen. Auf der Mittelschiene im Ofen 15–20 Min. backen, bis die Spitzpaprika weich sind.",
+        "durationMinutes": 25,
+        "ingredients": [
+          "Spitzpaprika (nicht in ingredient list, use 2-4 depending)",
+          "Olivenöl",
+          "Pistazien",
+          "Hirtenkäse"
+        ],
+        "notes": "Backofen auf 220°C Ober- und Unterhitze vorheizen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-2.jpg"
+      },
+      {
+        "id": "zwiebeln-karamellisieren",
+        "instruction": "Blätter von Petersilie und Minze abzupfen und getrennt voneinander fein hacken. Zwiebel abziehen, halbieren und in feine Streifen schneiden. In einer kleinen Pfanne 1 EL (für 2 Personen), 1,5 EL (für 3 Personen) bzw. 2 EL (für 4 Personen) Olivenöl erhitzen. Zwiebelstreifen darin bei mittlerer Temperatur 8–10 Min. glasig dünsten. Mit Balsamicocreme ablöschen und auf der ausgeschalteten Herdplatte stehen lassen.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Zwiebel",
+          "Olivenöl",
+          "Balsamico-Creme",
+          "Petersilie",
+          "Minze"
+        ],
+        "notes": "Zwiebeln langsam glasig dünsten.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-3.jpg"
+      },
+      {
+        "id": "salat-vorbereiten",
+        "instruction": "Limette heiß abwaschen, Schale der Limette fein abreiben. Limette in 6 (bei 2 Personen), 6 (bei 3 Personen) bzw. 12 (bei 4 Personen) Spalten schneiden. In einer großen Schüssel Saft von 1 (2P), 1,5 (3P) bzw. 2 (4P) Limettenspalten, 1 EL (2P), 1,5 EL (3P) bzw. 2 EL (4P) Olivenöl, süßen Senf, Salz und Pfeffer verrühren. Spinat unterheben.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Limette",
+          "Olivenöl",
+          "Süßer Senf",
+          "Salz",
+          "Pfeffer",
+          "Babyspinat"
+        ],
+        "notes": "Dressing anrühren und Spinat unterheben.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-4.jpg"
+      },
+      {
+        "id": "dip-zubereiten",
+        "instruction": "In einer kleinen Schüssel Sahnejoghurt mit Minze und einigen Tropfen Limettensaft verrühren. Mit Salz und Pfeffer abschmecken. Avocado halbieren, Stein entfernen, Fruchtfleisch herauslösen und quer in Scheiben schneiden.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Joghurt",
+          "Minze",
+          "Limette",
+          "Salz",
+          "Pfeffer",
+          "Avocado"
+        ],
+        "notes": "Frischen Minz-Joghurt-Dip zubereiten.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "instruction": "Bulgur mit dem Saft von 1 (2P), 1,5 (3P) bzw. 2 (4P) Limettenspalten nach Geschmack, gehackter Petersilie und 1 TL (2P), 1,5 TL (3P) bzw. 2 TL (4P) Limettenabrieb mischen und auf tiefe Teller geben. Spinatsalat, Avocado, Spitzpaprika und karamellisierte Zwiebeln darauf verteilen und mit Minzjoghurt genießen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Bulgur",
+          "Limettensaft",
+          "Petersilie",
+          "Limettenabrieb",
+          "Babyspinat",
+          "Avocado",
+          "Spitzpaprika",
+          "Zwiebel",
+          "Joghurt",
+          "Minze"
+        ],
+        "notes": "Alles ansprechend anrichten und servieren.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "salat",
+      "vegetarisch",
+      "sommer",
+      "leicht",
+      "gesund",
+      "abendessen"
+    ]
+  },
+  "marinated-grilled-chicken-legs-with-taboule-and-mint-yogurt": {
+    "slug": "marinated-grilled-chicken-legs-with-taboule-and-mint-yogurt",
+    "title": "Marinated Grilled Chicken Legs with Tabbouleh and Mint Yogurt",
+    "description": "A flavorful dish featuring marinated and grilled chicken legs served with fresh tabbouleh and creamy mint yogurt, complemented by crunchy cashew nuts.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 70,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Bulgur",
+        "unit": "g",
+        "notes": "Use as per number of servings",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 200,
+          "4": 300,
+          "5": 350,
+          "6": 400
+        }
+      },
+      {
+        "name": "Tomato (Roma)",
+        "unit": "pcs",
+        "notes": "Cut into 0.5 cm dice",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "Lemon, washed",
+        "unit": "pcs",
+        "notes": "Zest and juice used separately",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Spring Onion",
+        "unit": "pcs",
+        "notes": "Cut into thin rings",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Mint/Petersilie (parsley)",
+        "unit": "g",
+        "notes": "Leaves picked and chopped separately",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "name": "Cucumber",
+        "unit": "pcs",
+        "notes": "Cut into 0.5 cm dice",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "Fresh Cheese Hirtenkäse (Feta cheese)",
+        "unit": "g",
+        "notes": "Crumbled with hands",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "Chicken legs",
+        "unit": "g",
+        "notes": "Washed thoroughly",
+        "quantitiesByServings": {
+          "2": 500,
+          "3": 750,
+          "4": 1000,
+          "5": 1250,
+          "6": 1500
+        }
+      },
+      {
+        "name": "Garlic clove",
+        "unit": "pcs",
+        "notes": "Wrapped in foil and grilled",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2,
+          "6": 3
+        }
+      },
+      {
+        "name": "Yogurt",
+        "unit": "g",
+        "notes": "To mix with herbs and seasonings for mint yogurt",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 200,
+          "4": 300,
+          "5": 350,
+          "6": 400
+        }
+      },
+      {
+        "name": "Vegetable broth powder",
+        "unit": "g",
+        "notes": "For bulgur cooking",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Cashew nuts",
+        "unit": "g",
+        "notes": "Roughly chopped",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60
+        }
+      },
+      {
+        "name": "Water",
+        "unit": "ml",
+        "notes": "Boiling water for bulgur preparation and marinade",
+        "quantitiesByServings": {
+          "2": 350,
+          "3": 525,
+          "4": 700,
+          "5": 875,
+          "6": 1050
+        }
+      },
+      {
+        "name": "Olive oil",
+        "unit": "tbsp",
+        "notes": "Used in marinade and mint yogurt dressing",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Oil (for marinade)",
+        "unit": "tbsp",
+        "notes": "Use in marinade",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "Pepper",
+        "unit": "to taste",
+        "notes": "Ground, to taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Salt",
+        "unit": "to taste",
+        "notes": "To taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "wash-ingredients",
+        "instruction": "Wash vegetables and herbs thoroughly. Wash chicken legs thoroughly before preparation.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Chicken legs",
+          "Lemon",
+          "Mint/Petersilie",
+          "Cucumber"
+        ],
+        "notes": "Washing chicken legs removes any vacuum packaging odor.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-1.jpg"
+      },
+      {
+        "id": "heat-water",
+        "instruction": "Heat water to boiling (350 ml for 2 servings, 525 ml for 3 servings, 700 ml for 4 servings).",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Water"
+        ],
+        "notes": "Use water for bulgur preparation and marinade.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-2.jpg"
+      },
+      {
+        "id": "prepare-marinade",
+        "instruction": "In a large bowl, mix 2 tbsp oil (for 2 servings; 3 tbsp for 3; 4 tbsp for 4) with 1 tsp lemon zest (adjust for servings as 1 to 2 tsp), 2 tbsp lemon juice, pepper, and salt. Stir well.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Olive oil",
+          "Lemon",
+          "Pepper",
+          "Salt"
+        ],
+        "notes": "Ensure lemon zest is finely grated.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-3.jpg"
+      },
+      {
+        "id": "marinate-chicken",
+        "instruction": "Turn chicken legs in the marinade to coat well. Let marinate while preparing other ingredients.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Chicken legs",
+          "Marinade"
+        ],
+        "notes": "Ensure all legs are well covered.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-4.jpg"
+      },
+      {
+        "id": "grill-chicken-legs",
+        "instruction": "Place chicken legs skin side down on grill and grill for about 22–30 minutes, turning regularly to crisp all sides.",
+        "durationMinutes": 30,
+        "ingredients": [
+          "Chicken legs"
+        ],
+        "notes": "Wrap garlic in foil and grill for about 5 minutes alongside chicken.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-5.jpg"
+      },
+      {
+        "id": "cook-bulgur",
+        "instruction": "Put boiling water (350 ml for 2 servings; 525 ml for 3; 700 ml for 4) in a small pot, add vegetable broth powder, lightly salt, and bring to a boil once.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Water",
+          "Vegetable broth powder",
+          "Salt"
+        ],
+        "notes": "Prepare bulgur for cooking.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-6.jpg"
+      },
+      {
+        "id": "soak-bulgur",
+        "instruction": "Stir in bulgur, cover pot, turn off heat, and let bulgur soak for about 25 minutes until water is fully absorbed.",
+        "durationMinutes": 25,
+        "ingredients": [
+          "Bulgur"
+        ],
+        "notes": "Do not stir during soaking."
+      },
+      {
+        "id": "prepare-mint-yogurt",
+        "instruction": "Pick mint and parsley leaves and chop herbs separately. In a small bowl, mix chopped mint with yogurt, salt, pepper, 1 tbsp lemon juice, 2 tbsp olive oil, and pressed garlic.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Mint",
+          "Petersilie",
+          "Yogurt",
+          "Salt",
+          "Pepper",
+          "Lemon juice",
+          "Olive oil",
+          "Garlic"
+        ],
+        "notes": "Press garlic from foil before mixing."
+      },
+      {
+        "id": "prepare-tabbouleh",
+        "instruction": "Halve tomatoes, remove stems, and dice into 0.5 cm cubes. Cut spring onions into thin rings. Cut ends off cucumber and dice into 0.5 cm cubes. Crumble feta cheese with hands.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Tomato",
+          "Spring Onion",
+          "Cucumber",
+          "Hirtenkäse"
+        ],
+        "notes": "Fresh and evenly chopped ingredients improve texture and taste."
+      },
+      {
+        "id": "mix-tabbouleh",
+        "instruction": "Combine tomato, spring onion, cucumber, feta, chopped parsley, salt, and pepper in a bowl to make the dressing. Mix everything thoroughly.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Tomato",
+          "Spring Onion",
+          "Cucumber",
+          "Hirtenkäse",
+          "Petersilie",
+          "Salt",
+          "Pepper"
+        ],
+        "notes": "Adjust seasoning to taste."
+      },
+      {
+        "id": "prepare-cashews",
+        "instruction": "Coarsely chop cashew nuts.",
+        "durationMinutes": 2,
+        "ingredients": [
+          "Cashew nuts"
+        ],
+        "notes": "Can be done while bulgur soaks."
+      },
+      {
+        "id": "assemble-dish",
+        "instruction": "If needed, drain excess water from bulgur and fluff with a fork. Mix bulgur under tabbouleh and place on serving plates.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Bulgur",
+          "Tabbouleh"
+        ],
+        "notes": "Fluff bulgur to keep it light."
+      },
+      {
+        "id": "serve",
+        "instruction": "Arrange grilled chicken legs on plates alongside tabbouleh. Sprinkle chopped cashew nuts over, add a spoonful of mint yogurt, and enjoy.",
+        "durationMinutes": 2,
+        "ingredients": [
+          "Chicken legs",
+          "Cashew nuts",
+          "Mint Yogurt"
+        ],
+        "notes": "Serve immediately for best flavor."
+      }
+    ],
+    "tags": [
+      "grilled",
+      "chicken",
+      "Mediterranean",
+      "mint",
+      "yogurt",
+      "tabbouleh",
+      "bulgur",
+      "summer",
+      "easy"
+    ]
+  },
+  "vegetarische-moussaka-mit-aubergine-linsen": {
+    "slug": "vegetarische-moussaka-mit-aubergine-linsen",
+    "title": "Vegetarische Moussaka mit Aubergine und Linsen",
+    "description": "Eine köstliche vegetarische Moussaka mit Auberginen, Linsen und Kartoffelwürfeln, überbacken mit einer Frischkäse-Mischung und Käse-Mix. Perfekt für 2 bis 4 Personen.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 50,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "unit": "Stück",
+        "notes": "vorgegart",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Kartoffelwürfel",
+        "unit": "g",
+        "notes": "vorgegart",
+        "quantitiesByServings": {
+          "2": 400,
+          "3": 600,
+          "4": 800,
+          "5": 1000,
+          "6": 1200
+        }
+      },
+      {
+        "name": "braune Linsen",
+        "unit": "Tassen",
+        "notes": "getrocknet",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Gemüsebrühe",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Gewürzmischung \"Hello Souflaki\"",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "name": "Käse-Mix",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "stückige Tomaten",
+        "unit": "Stück",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Frischkäse",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 250,
+          "6": 300
+        }
+      },
+      {
+        "name": "Gewürzmischung \"Hello Muskat\"",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 5,
+          "3": 5,
+          "4": 10,
+          "5": 15,
+          "6": 20
+        }
+      },
+      {
+        "name": "Salatherz (Romana)",
+        "unit": "Stück",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Balsamico-Crème",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 12,
+          "3": 12,
+          "4": 24,
+          "5": 36,
+          "6": 48
+        }
+      },
+      {
+        "name": "Tomate (Romana)",
+        "unit": "Stück",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Honig",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 8,
+          "3": 16,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "name": "Olivenöl",
+        "unit": "EL",
+        "notes": "für Auberginenscheiben und Auflaufform",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "Zucker",
+        "unit": "TL",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Wasser",
+        "unit": "EL",
+        "notes": "für Frischkäse-Mischung",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "kleine-vorbereitung",
+        "instruction": "Linsen durch ein Sieb abgießen und mit Wasser spülen, bis dieses klar hindurchfließt. Enden der Aubergine abschneiden und Aubergine in ca. 0,5 cm dicke Scheiben schneiden.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "braune Linsen",
+          "Aubergine"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-1.jpg"
+      },
+      {
+        "id": "auflauf-mischen",
+        "instruction": "In einer großen Auflaufform stückige Tomaten, Linsen, Kartoffelwürfel, Gemüsebrühe, Honig und Gewürzmischung \"Hello Souflaki\" vermengen. Mit Zucker, Salz und Pfeffer würzen und gleichmäßig auf dem Boden der Auflaufform verteilen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "stückige Tomaten",
+          "braune Linsen",
+          "Kartoffelwürfel",
+          "Gemüsebrühe",
+          "Honig",
+          "Gewürzmischung \"Hello Souflaki\"",
+          "Zucker",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "Für 4 Personen am besten 2 Auflaufformen verwenden.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-2.jpg"
+      },
+      {
+        "id": "aubergine-backen",
+        "instruction": "Auf der Hälfte eines mit Backpapier belegten Backblechs die Auberginenscheiben ausbreiten. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Bei 220 °C Ober-/Unterhitze ca. 20 Minuten backen, bis sie etwas weicher sind.",
+        "durationMinutes": 20,
+        "ingredients": [
+          "Aubergine",
+          "Olivenöl",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "Für 3 oder 4 Personen ein ganzes Backblech verwenden.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-3.jpg"
+      },
+      {
+        "id": "frischkaese-mischung-zubereiten",
+        "instruction": "Frischkäse und Gewürzmischung \"Hello Muskat\" mit heißem Wasser glatt rühren. Tomate in 2 cm große Würfel schneiden. Salatherz halbieren, Strunk herausschneiden und in Streifen schneiden.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Frischkäse",
+          "Gewürzmischung \"Hello Muskat\"",
+          "Wasser",
+          "Tomate (Romana)",
+          "Salatherz (Romana)"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-4.jpg"
+      },
+      {
+        "id": "gratiniere-auflauf",
+        "instruction": "Auflaufform aus dem Ofen nehmen und gut durchmengen. Vorgebackene Auberginenscheiben auf dem Auflauf verteilen, Frischkäse-Mischung darüber geben, mit Käse-Mix bestreuen und weitere 10–12 Minuten im Ofen gratinieren lassen. Danach mit Küchenpapier die Auflaufform auswischen.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Aubergine",
+          "Frischkäse",
+          "Käse-Mix"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "instruction": "In einer großen Schüssel Balsamico-Crème und Olivenöl verrühren. Dressing mit Salz und Pfeffer abschmecken. Tomate und Salat unter das Dressing heben. Vegetarische Moussaka auf Teller verteilen, Salat daneben anrichten und genießen.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Balsamico-Crème",
+          "Olivenöl",
+          "Salz",
+          "Pfeffer",
+          "Tomate (Romana)",
+          "Salatherz (Romana)"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "vegetarisch",
+      "augenbacken",
+      "moussaka",
+      "herzhaft",
+      "einfach"
+    ]
+  },
+  "beef-burger-garden-style-risotto": {
+    "slug": "beef-burger-garden-style-risotto",
+    "title": "Beef Burger Garden Style Risotto",
+    "description": "A delicious risotto with mushrooms, bacon, pear, walnuts, and caramelized flavors, topped with grated hard cheese and chives.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 40,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Risottoreis",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 225,
+          "3": 300,
+          "4": 450,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Champignons",
+        "unit": "g",
+        "notes": "in slices",
+        "quantitiesByServings": {
+          "2": 150,
+          "3": 225,
+          "4": 300,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Birne BE",
+        "unit": "pieces",
+        "notes": "pear, quartered and halved again",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Schnittlauch",
+        "unit": "g",
+        "notes": "cut into fine rolls",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "geriebener Hartkäse",
+        "unit": "g",
+        "notes": "grated hard cheese",
+        "quantitiesByServings": {
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Zwiebel DE NL NZ",
+        "unit": "",
+        "notes": "onion",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Hühnerbrühe",
+        "unit": "ml",
+        "notes": "chicken broth",
+        "quantitiesByServings": {
+          "2": 600,
+          "3": 800,
+          "4": 1200,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Bacon (Scheiben)",
+        "unit": "g",
+        "notes": "bacon slices",
+        "quantitiesByServings": {
+          "2": 100,
+          "3": 125,
+          "4": 200,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Walnüsse",
+        "unit": "g",
+        "notes": "walnuts",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 20,
+          "4": 40,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Knoblauchzehe ES",
+        "unit": "",
+        "notes": "garlic clove",
+        "quantitiesByServings": {
+          "2": 0.5,
+          "3": 0.75,
+          "4": 1,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Olivenöl, Wasser, Zucker, Salz, Pfeffer",
+        "unit": "",
+        "notes": "used as needed for cooking and seasoning",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "prepare-risotto",
+        "instruction": "In a large pot, heat 1 EL olive oil and sauté chopped onion and garlic for about 1 minute. Add risotto rice and sauté for another minute. Deglaze with a little chicken broth and cook risotto on low heat for about 20 minutes, stirring occasionally and adding broth gradually as needed.",
+        "durationMinutes": 22,
+        "ingredients": [
+          "Zwiebel DE NL NZ",
+          "Knoblauchzehe ES",
+          "Olivenöl",
+          "Hühnerbrühe",
+          "Risottoreis"
+        ],
+        "notes": "Stir continuously to prevent sticking.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-1.jpg"
+      },
+      {
+        "id": "cut-vegetables",
+        "instruction": "Slice mushrooms. Quarter pear, remove core, and halve pieces again. Cut chives into fine rolls.",
+        "durationMinutes": 7,
+        "ingredients": [
+          "Champignons",
+          "Birne BE",
+          "Schnittlauch"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-2.jpg"
+      },
+      {
+        "id": "fry-bacon",
+        "instruction": "Place bacon slices in a large cold pan and fry over medium heat for about 5 minutes, turning occasionally until crispy. Remove and set aside.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Bacon (Scheiben)"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-3.jpg"
+      },
+      {
+        "id": "fry-mushrooms",
+        "instruction": "In the same pan without additional fat, fry sliced mushrooms for 3-4 minutes, season with salt and pepper, then add to the risotto.",
+        "durationMinutes": 6,
+        "ingredients": [
+          "Champignons",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-4.jpg"
+      },
+      {
+        "id": "caramelize-pear",
+        "instruction": "Wipe pan with kitchen paper, then add pear slices and walnuts. Fry for about 3 minutes. Sprinkle 0.5 to 1 EL sugar over and let caramelize gently for 2 to 3 minutes.",
+        "durationMinutes": 8,
+        "ingredients": [
+          "Birne BE",
+          "Walnüsse",
+          "Zucker"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-5.jpg"
+      },
+      {
+        "id": "plate-and-serve",
+        "instruction": "Stir grated hard cheese into the finished risotto, then spread on plates. Top with caramelized pear slices, walnuts, crispy bacon slices, and sprinkle with chive rolls. Serve and enjoy.",
+        "durationMinutes": 4,
+        "ingredients": [
+          "geriebener Hartkäse",
+          "Birne BE",
+          "Walnüsse",
+          "Bacon (Scheiben)",
+          "Schnittlauch"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "risotto",
+      "mushrooms",
+      "bacon",
+      "pear",
+      "walnuts",
+      "caramelized",
+      "main dish"
+    ]
+  },
+  "bulgogi-sweet-chili-burger-with-roasted-vegetable-slices": {
+    "slug": "bulgogi-sweet-chili-burger-with-roasted-vegetable-slices",
+    "title": "Bulgogi Sweet Chili Burger with Roasted Vegetable Slices",
+    "description": "A flavorful recipe featuring bulgogi-seasoned ground beef burgers paired with sweet chili mayonnaise and roasted vegetable slices, including sweet potato and green beans, served with a baguette.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 50,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Steinofenbaguette",
+        "unit": "pcs",
+        "notes": "Use 1 to 2 pieces depending on serving size",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Rinderhackfleisch (ground beef)",
+        "unit": "g",
+        "notes": "Cut into small pieces",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "Bulgogisoße (bulgogi sauce)",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 50,
+          "3": 100,
+          "4": 150,
+          "5": 188,
+          "6": 225
+        }
+      },
+      {
+        "name": "Zwiebel (onion)",
+        "unit": "pcs",
+        "notes": "Quartered and layers peeled",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Grüne Paprika (green bell pepper)",
+        "unit": "pcs",
+        "notes": "Halved, deseeded, cut into 1 cm wide strips",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Karotte (carrot)",
+        "unit": "pcs",
+        "notes": "Peeled and coarsely grated",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 4
+        }
+      },
+      {
+        "name": "Sesam (sesame seeds)",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 20,
+          "4": 30,
+          "5": 40,
+          "6": 50
+        }
+      },
+      {
+        "name": "Mayonnaise",
+        "unit": "ml",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 68,
+          "3": 102,
+          "4": 136,
+          "5": 170,
+          "6": 204
+        }
+      },
+      {
+        "name": "Süßkartoffel (sweet potato)",
+        "unit": "pcs",
+        "notes": "Halved lengthwise, then quartered lengthwise and sliced into 1 cm thick pieces",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 2,
+          "6": 2
+        }
+      },
+      {
+        "name": "Sweet-Chili-Soße (sweet chili sauce)",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 25,
+          "3": 50,
+          "4": 75,
+          "5": 94,
+          "6": 113
+        }
+      },
+      {
+        "name": "Koriander (coriander leaves)",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 15,
+          "6": 20
+        }
+      },
+      {
+        "name": "Öl (oil)",
+        "unit": "EL",
+        "notes": "1 EL = 1 tablespoon",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Salz (salt)",
+        "unit": "to taste",
+        "notes": "to taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer (pepper)",
+        "unit": "to taste",
+        "notes": "to taste",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "prepare-oven-and-utensils",
+        "instruction": "Preheat the oven to 220°C (top and bottom heat) or 200°C (fan). Gather 1 baking dish, 1 baking tray lined with baking paper, a small bowl, and a vegetable grater.",
+        "durationMinutes": 10,
+        "ingredients": [],
+        "notes": "Heated oven before starting preparation.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-1.jpg"
+      },
+      {
+        "id": "prepare-oven-vegetables",
+        "instruction": "Peel the onion, quarter it and separate the layers. Halve the green bell pepper, remove seeds and stem, then cut into 1 cm wide strips. Halve the sweet potato lengthwise, then quarter lengthwise and slice into 1 cm thick slices.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Zwiebel",
+          "grüne Paprika",
+          "Süßkartoffel"
+        ],
+        "notes": "Prepare vegetables before mixing.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-2.jpg"
+      },
+      {
+        "id": "mix-bulgogi-mixture",
+        "instruction": "Put the ground beef, quartered onion, and green pepper strips into a baking dish. Add bulgogi sauce and sesame seeds, then mix well.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Rinderhackfleisch",
+          "Zwiebel",
+          "grüne Paprika",
+          "Bulgogisoße",
+          "Sesam"
+        ],
+        "notes": "Mix thoroughly to distribute sauce and seeds.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-3.jpg"
+      },
+      {
+        "id": "grate-carrot-and-prepare-baguette",
+        "instruction": "Peel and coarsely grate the carrot. Pick coriander leaves. Halve the baguette crosswise and then slice horizontally.",
+        "durationMinutes": 7,
+        "ingredients": [
+          "Karotte",
+          "Koriander",
+          "Steinofenbaguette"
+        ],
+        "notes": "Prepare carrot and baguette for assembly.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-4.jpg"
+      },
+      {
+        "id": "prepare-dip",
+        "instruction": "In a small bowl, combine mayonnaise and sweet chili sauce with salt and pepper to make the dip. Stir well.",
+        "durationMinutes": 3,
+        "ingredients": [
+          "Mayonnaise",
+          "Sweet-Chili-Soße",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "Adjust seasoning to taste.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-5.jpg"
+      },
+      {
+        "id": "bake-vegetables",
+        "instruction": "Place the baking dish on the side of the baking tray lined with baking paper. Arrange the sweet potato slices on the other side. Drizzle with oil, sprinkle with salt and pepper, and toss to coat. Bake everything in the middle of the oven for 25-30 minutes. Add the baguette during the last 5-10 minutes of baking time.",
+        "durationMinutes": 30,
+        "ingredients": [
+          "Steinofenbaguette",
+          "Süßkartoffel",
+          "Öl",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "If space is tight, you can use two baking trays.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-6.jpg"
+      },
+      {
+        "id": "assemble-sandwich",
+        "instruction": "Put the grated carrot into the baking dish and mix with the Bulgogi mixture. Spread both sides of the baguette with the sweet chili mayonnaise. Fill the baguette with the bulldogi mixture and garnish with coriander leaves. Serve the sweet potato slices with the remaining sweet chili mayonnaise.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Karotte",
+          "Mayonnaise",
+          "Sweet-Chili-Soße",
+          "Bulgogisoße",
+          "Koriander",
+          "Süßkartoffel"
+        ],
+        "notes": "Assemble while filling is warm for best flavor."
+      }
+    ],
+    "tags": [
+      "baking",
+      "burger",
+      "asian-fusion",
+      "oven-roasted",
+      "sweet-potato",
+      "ground-beef",
+      "dinner"
+    ]
+  },
+  "ofen-ratatouille-mit-walnussen-und-mozzarella": {
+    "slug": "ofen-ratatouille-mit-walnussen-und-mozzarella",
+    "title": "Ofen-Ratatouille mit Walnüssen und Mozzarella",
+    "description": "Ein leckeres Ofen-Ratatouille mit Auberginen, Zucchini, Kartoffeln, Walnüssen und Mozzarella, überbacken mit Hartkäseflocken, serviert mit einem frischen Salat aus Rucola und Dressing.",
+    "difficulty": "medium",
+    "totalTimeMinutes": 70,
+    "servings": {
+      "min": 2,
+      "max": 4,
+      "default": 4
+    },
+    "ingredients": [
+      {
+        "name": "Aubergine",
+        "unit": "Stücke",
+        "notes": "von NL oder ES",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Zucchini",
+        "unit": "Stücke",
+        "notes": "von NL oder ES",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "mehlig. Kartoffeln",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "Zwiebel",
+        "unit": "Stücke",
+        "notes": "von DE, NL, NZ",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Knoblauchzehe",
+        "unit": "Stücke",
+        "notes": "von ES",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Gewürzmischung \"Hello Harissa\"",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      },
+      {
+        "name": "Tomaten Sugo",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 200,
+          "3": 300,
+          "4": 400,
+          "5": 500,
+          "6": 600
+        }
+      },
+      {
+        "name": "Olivenöl",
+        "unit": "EL",
+        "notes": "+ zusätzlich für die Pfanne verwenden",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Mozzarella",
+        "unit": "Stück",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Walnüsse",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60
+        }
+      },
+      {
+        "name": "Rucola",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 75,
+          "3": 100,
+          "4": 150,
+          "5": 190,
+          "6": 230
+        }
+      },
+      {
+        "name": "Hartkäse, geraspelt",
+        "unit": "g",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 40,
+          "3": 60,
+          "4": 90,
+          "5": 115,
+          "6": 140
+        }
+      },
+      {
+        "name": "Balsamicoessig",
+        "unit": "EL",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Wasser",
+        "unit": "EL",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1.5,
+          "4": 2,
+          "5": 2.5,
+          "6": 3
+        }
+      },
+      {
+        "name": "Salz",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Pfeffer",
+        "unit": "nach Geschmack",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0
+        }
+      },
+      {
+        "name": "Zucker",
+        "unit": "Prise",
+        "notes": "",
+        "quantitiesByServings": {
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1
+        }
+      }
+    ],
+    "steps": [
+      {
+        "id": "vorbereiten-und-gemuse-schneiden",
+        "instruction": "Wasche das Gemüse. Heize den Backofen auf 220°C Ober-/Unterhitze (200°C Umluft) vor. Schneide von der Aubergine und Zucchini die Enden ab und schneide jeweils ca. 0,5 cm dicke Scheiben. Schäle die Kartoffel und schneide auch 0,5 cm dicke Scheiben. Ziehe die Zwiebel ab, halbiere sie und schneide feine Halbringe. Ziehe den Knoblauch ab.",
+        "durationMinutes": 20,
+        "ingredients": [
+          "Aubergine",
+          "Zucchini",
+          "mehlig. Kartoffeln",
+          "Zwiebel",
+          "Knoblauchzehe"
+        ],
+        "notes": "Damit die Aubergine nicht bitter schmeckt, sofort nach dem Schneiden salzen und nach ca. 10 Min. trocken tupfen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-1.jpg"
+      },
+      {
+        "id": "walnusse-rosten",
+        "instruction": "Röste die Walnusskerne in einer großen Pfanne ohne Fett für 2–3 Minuten, bis sie anfangen zu duften. Nimm sie heraus und lasse sie auskühlen. Erhitze 1 EL Olivenöl in der Pfanne, gib die Zwiebel dazu, presse den Knoblauch hinein und dünste beides für 2–3 Minuten glasig. Gib die Gewürzmischung \"Hello Harissa\" dazu und röste alles einmal durch. Rühre die Hälfte des Tomatensugos unter und würze mit Salz und Pfeffer.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Walnüsse",
+          "Olivenöl",
+          "Zwiebel",
+          "Knoblauchzehe",
+          "Gewürzmischung \"Hello Harissa\"",
+          "Tomaten Sugo",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-2.jpg"
+      },
+      {
+        "id": "gemuse-schichten",
+        "instruction": "Gib die Zwiebelmasse in eine große Auflaufform und verteile sie gleichmäßig. Schichte nun abwechselnd Auberginen-, Kartoffel- und Zucchinischeiben über die Zwiebelmasse. Würze mit Salz und Pfeffer und beträufle alles mit 2 EL Olivenöl.",
+        "durationMinutes": 10,
+        "ingredients": [
+          "Zwiebel",
+          "Aubergine",
+          "mehlig. Kartoffeln",
+          "Zucchini",
+          "Salz",
+          "Pfeffer",
+          "Olivenöl"
+        ],
+        "notes": "Verwende bei 4 Personen 2 Auflaufformen.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-3.jpg"
+      },
+      {
+        "id": "salat-zubereiten",
+        "instruction": "Bereite in einer großen Schüssel das Dressing zu: Verrühre Balsamicoessig, Olivenöl, Wasser, Salz, Pfeffer und eine Prise Zucker. Hacke die Walnüsse grob und füge sie zum Dressing hinzu.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Balsamicoessig",
+          "Olivenöl",
+          "Wasser",
+          "Salz",
+          "Pfeffer",
+          "Zucker",
+          "Walnüsse"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-4.jpg"
+      },
+      {
+        "id": "gemuse-gratinieren",
+        "instruction": "Halbiere die Oliven und gib sie zusammen mit dem restlichen Tomatensugo über das Gemüse. Zerzupfe den Mozzarella und verteile ihn mit der Hälfte des geraspelten Hartkäses auf dem Gemüse. Backe das Ganze ca. 10 Minuten, bis der Mozzarella zerlaufen ist.",
+        "durationMinutes": 15,
+        "ingredients": [
+          "Olivenöl",
+          "Mozzarella",
+          "Hartkäse, geraspelt",
+          "Tomaten Sugo",
+          "Salz",
+          "Pfeffer"
+        ],
+        "notes": "Oliven halbieren.",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "instruction": "Verteile den Rucola in der großen Schüssel und mische ihn mit dem Dressing und den restlichen Walnüssen sowie den restlichen Hartkäseflocken. Verteile Ofen-Ratatouille und Salat auf den Tellern und genieße.",
+        "durationMinutes": 5,
+        "ingredients": [
+          "Rucola",
+          "Hartkäse, geraspelt",
+          "Walnüsse",
+          "Salat",
+          "Dressing"
+        ],
+        "notes": "",
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-6.jpg"
+      }
+    ],
+    "tags": [
+      "vegetarisch",
+      "ofen",
+      "ratatouille",
+      "mediterran",
+      "einfach"
+    ]
   }
 }

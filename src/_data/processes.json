@@ -197,5 +197,817 @@
       }
     ],
     "finishCriteria": "Recipe completed as described"
+  },
+  "hahnchenbrust-mit-brokkoli-paprikasosse": {
+    "recipeSlug": "hahnchenbrust-mit-brokkoli-paprikasosse",
+    "totalDurationMinutes": 77,
+    "timeline": [
+      {
+        "id": "reiskochanleitung",
+        "type": "action",
+        "instruction": "Reis in einem Sieb mit kaltem Wasser so lange abspülen, bis das Wasser klar hindurchfließt. In einen kleinen Topf 300 ml [450 ml | 600 ml] heißes Wasser füllen, leicht salzen* und einmal aufkochen lassen. Reis einrühren und bei niedriger Hitze ca. 10 Min. abgedeckt köcheln lassen. Danach den Topf vom Herd nehmen und mindestens 10 Min. abgedeckt ziehen lassen. (Reis unbedingt vorher gut spülen.)",
+        "startMinute": 0,
+        "durationMinutes": 25,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-1.jpg"
+      },
+      {
+        "id": "haehnchenbrust-backen",
+        "type": "action",
+        "instruction": "Pankomehl und geriebenen Hartkäse auf einem tiefen Teller miteinander vermengen. Hähnchenbrüste in eine große Schüssel geben und komplett mit Mayonnaise vermengen, bis diese vollständig überzogen sind. Hähnchenbrüste in der Käse-Panko-Mischung wälzen und diese fest andrücken. Panierte Hähnchenbrüste auf einem mit Backpapier belegten Backblech verteilen, mit 1 EL [1,5 EL | 2 EL] Öl beträufeln und im vorgeheizten Ofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) für 14–18 Min. goldbraun backen, bis sie innen nicht mehr rosa sind. (Backofen vorheizen auf 220 °C.)",
+        "startMinute": 25,
+        "durationMinutes": 20,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-2.jpg"
+      },
+      {
+        "id": "paprika-brokkoli-vorbereiten",
+        "type": "action",
+        "instruction": "Einen großen Topf mit reichlich heißem Wasser füllen, salzen* und zum Kochen bringen. Paprika halbieren, Kerngehäuse entfernen und Paprikahälften in 1 cm dünne Streifen schneiden. Brokkoli in mundgerechte Röschen schneiden oder brechen. (Brokkoli und Paprika während das Hähnchen backt vorbereiten.)",
+        "startMinute": 45,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-3.jpg"
+      },
+      {
+        "id": "soße-kochen",
+        "type": "action",
+        "instruction": "In einer großen Pfanne 1 EL [1,5 EL | 2 EL] Öl erhitzen und Paprikastreifen darin 4–6 Min. farblos anschwitzen. Pfanneninhalt mit 50 ml [75 ml | 100 ml] Wasser*, Hühnerbrühpulver, Gewürzmischung \"Hello Paprika\" und Kochsahne ablöschen, alles verrühren und weitere 2 Min. köcheln lassen, bis die Soße etwas eingedickt ist. Soße mit Salz* und Pfeffer* abschmecken.",
+        "startMinute": 55,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-4.jpg"
+      },
+      {
+        "id": "brokkoli-kochen",
+        "type": "action",
+        "instruction": "Brokkoliröschen im großen Topf für 3–4 Min. gar kochen und anschließend durch ein Sieb abgießen.",
+        "startMinute": 65,
+        "durationMinutes": 7,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "Reis nach der Kochzeit mit einer Gabel etwas auflockern. Knusprige Hähnchenbrüste, Brokkoli, Reis und Paprikasoße auf Tellern anrichten und genießen.",
+        "startMinute": 72,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_145906937.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "glasnudelsalat-mit-hackfleisch-und-gemuese": {
+    "recipeSlug": "glasnudelsalat-mit-hackfleisch-und-gemuese",
+    "totalDurationMinutes": 55,
+    "timeline": [
+      {
+        "id": "gemuese-schneiden",
+        "type": "action",
+        "instruction": "Chili halbieren, entkernen und Chilihälften fein hacken (Achtung: scharf!). Weißen und grünen Teil der Frühlingszwiebeln getrennt voneinander in feine Ringe schneiden. Knoblauch abziehen und fein hacken. Karotte schälen und mit einem Gemüseschäler in längliche Streifen hobeln. Enden der Zucchini abschneiden, längs halbieren und mit dem Sparschäler in Streifen hobeln. (Tipp: Falls Hobeln zu aufwendig ist, kannst du Zucchini und Karotte auch in dünne Scheiben oder Stifte schneiden.)",
+        "startMinute": 0,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-1.jpg"
+      },
+      {
+        "id": "dressing-zubereiten",
+        "type": "action",
+        "instruction": "Limette heiß abwaschen, Schale fein abreiben und Limette vierteln. In einer kleinen Schale Limettenabrieb, Saft aus 2 Limettenvierteln, Sojasoße, gehackten Chili nach Geschmack und eine Prise Zucker zu einem Dressing verrühren.",
+        "startMinute": 15,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-2.jpg"
+      },
+      {
+        "id": "nudeln-kochen",
+        "type": "action",
+        "instruction": "In einem großen Topf reichlich heißes Wasser füllen, kräftig salzen und einmal aufkochen lassen. Topf vom Herd nehmen und Glasnudeln darin 5–7 Minuten einweichen, bis sie weich sind. Glasnudeln nach der Garzeit in ein Sieb abgießen, mit kaltem Wasser spülen und abtropfen lassen.",
+        "startMinute": 20,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-3.jpg"
+      },
+      {
+        "id": "fleisch-braten",
+        "type": "action",
+        "instruction": "In einer großen Pfanne 1–2 TL Öl erhitzen. Hackfleisch darin für 6–8 Minuten krümelig anbraten, bis es durch und alle Flüssigkeit verkocht ist. Herd ausschalten und Bulgogisoße unterrühren.",
+        "startMinute": 30,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-4.jpg"
+      },
+      {
+        "id": "gemuese-anbraten",
+        "type": "action",
+        "instruction": "In einer zweiten Pfanne 1–2 TL Öl erhitzen, weißen Teil der Frühlingszwiebel, gehackten Knoblauch, gehobelte Karotten und Zucchini hinzufügen und für 3–5 Minuten anschwitzen. Glasnudeln und Dressing hinzufügen, gut vermengen und für 1–2 Minuten anbraten. Mit Salz und Pfeffer abschmecken. Blätter vom Koriander abpfen und fein hacken.",
+        "startMinute": 40,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-5.jpg"
+      },
+      {
+        "id": "annichten",
+        "type": "action",
+        "instruction": "Glasnudelsalat auf Tellern verteilen und Hackfleisch dazu anrichten. Mit Erdnüssen und grünem Teil der Frühlingszwiebel toppen. Nach Belieben gehackten Koriander und Chili darüberstreuen. Restliche Limettenspalten dazureichen.",
+        "startMinute": 50,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180155835.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "gemuese-lachs-mit-porree-und-linsen": {
+    "recipeSlug": "gemuese-lachs-mit-porree-und-linsen",
+    "totalDurationMinutes": 51,
+    "timeline": [
+      {
+        "id": "gemuese-vorbereiten",
+        "type": "action",
+        "instruction": "Karotte schälen. Karotte und Selleriestange in kleine Würfel schneiden. Porree in 0,5 cm breite Ringe schneiden. Chili längs halbieren, Kerngehäuse entfernen und Chilihälften in feine Stücke schneiden. (Achtung: scharf!)",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-1.jpg"
+      },
+      {
+        "id": "kraeuter-schneiden",
+        "type": "action",
+        "instruction": "Blätter vom Thymian abzupfen und grob hacken. Schnittlauch in feine Röllchen schneiden.",
+        "startMinute": 10,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-2.jpg"
+      },
+      {
+        "id": "gemuese-braten",
+        "type": "action",
+        "instruction": "1 EL Öl bei mittlerer Hitze in einer großen Pfanne erwärmen. Karotten- und Selleriewürfel, Porreeringe, Chiliringe (Achtung: scharf!), gehackten Thymian und Schnittlauch in die Pfanne geben und 8-12 Minuten braten, bis das Gemüse weich ist. Mit Salz würzen. (Gemüse muss weich sein.)",
+        "startMinute": 15,
+        "durationMinutes": 12,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-3.jpg"
+      },
+      {
+        "id": "waehrenddessen-lachs-wuerzen-backen",
+        "type": "action",
+        "instruction": "Lachsfilets mit Salz, Pfeffer und 1 EL Öl würzen. Lachs auf einem mit Backpapier belegten Backblech im vorgeheizten Ofen bei 220 °C Ober-/Unterhitze (200 °C Umluft) 12-14 Minuten backen, bis der Fisch innen nicht mehr glasig ist. (Backofen vorheizen.)",
+        "startMinute": 27,
+        "durationMinutes": 14,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-4.jpg"
+      },
+      {
+        "id": "linsen-und-gemuese-kochen",
+        "type": "action",
+        "instruction": "Linsen in einem Sieb unter kaltem Wasser abspülen, bis das Wasser klar hindurchläuft. Linsen zum Gemüse geben. Gemüsebrühpulver und Sahne zum Gemüse geben und nochmals aufkochen, bis die Soße cremig und eingedickt ist. Mit Salz und Pfeffer abschmecken.",
+        "startMinute": 41,
+        "durationMinutes": 8,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten-und-servieren",
+        "type": "action",
+        "instruction": "Cremiges Porreegemüse auf Teller geben, Lachs darauf anrichten und genießen.",
+        "startMinute": 49,
+        "durationMinutes": 2,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180203827.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "oven-roasted-sweet-potatoes-with-tomato-salsa-beans-and-guacamole": {
+    "recipeSlug": "oven-roasted-sweet-potatoes-with-tomato-salsa-beans-and-guacamole",
+    "totalDurationMinutes": 75,
+    "timeline": [
+      {
+        "id": "preheat-oven-and-prepare-sweet-potatoes",
+        "type": "action",
+        "instruction": "Preheat the oven to 220 °C (upper/lower heat) or 200 °C with convection. Halve the unpeeled sweet potatoes lengthwise and prick them several times with a fork. Season with oil, salt, and pepper, then place cut side down on a baking sheet lined with parchment paper. (Use middle rack for baking.)",
+        "startMinute": 0,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-1.jpg"
+      },
+      {
+        "id": "bake-sweet-potatoes",
+        "type": "action",
+        "instruction": "Bake the prepared sweet potatoes in the preheated oven on the middle rack for 30 to 35 minutes until they are soft.",
+        "startMinute": 5,
+        "durationMinutes": 35,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-2.jpg"
+      },
+      {
+        "id": "prepare-vegetables",
+        "type": "action",
+        "instruction": "Cut the chili pepper in half, remove seeds and veins, then cut into fine strips (careful: it is hot!). Separate the white and green parts of the spring onions and cut them into fine rings. Drain kidney beans and corn in a sieve and rinse under water until clear. Peel garlic and finely chop the herbs.",
+        "startMinute": 40,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-3.jpg"
+      },
+      {
+        "id": "make-tomato-salsa",
+        "type": "action",
+        "instruction": "Halve tomatoes, remove stalks, and dice into 1 cm cubes. Place diced tomatoes in a small bowl. Add oil, sugar, juice of lime wedges, spring onion rings, and chili strips. Mix well and season with salt and pepper to taste. (Adjust chili quantity based on heat preference.)",
+        "startMinute": 50,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-4.jpg"
+      },
+      {
+        "id": "cook-beans",
+        "type": "action",
+        "instruction": "Heat oil in a large pan over medium heat. Add white spring onion rings and sauté for 1 to 2 minutes. Add garlic, beans, and corn and continue to cook all together. Add \"Hello Fiesta\" seasoning mix and fry for another 2 to 3 minutes. Season with salt and pepper.",
+        "startMinute": 55,
+        "durationMinutes": 7,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-5.jpg"
+      },
+      {
+        "id": "prepare-toppings",
+        "type": "action",
+        "instruction": "Wash lime well and zest the skin. Halve the lime and cut into 6 (for 2 servings) or 12 (for 4 servings) wedges. In a small bowl, mix lime zest with sour cream, salt, and pepper. Halve avocado, remove the stone, scoop the flesh into another small bowl, and mash coarsely with a fork. Squeeze juice from 2 (for 2 servings) or 3 (for 4 servings) lime wedges into the avocado mix. Add half of the chopped herbs and season with salt and pepper.",
+        "startMinute": 62,
+        "durationMinutes": 8,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180210717.MP-pic-6.jpg"
+      },
+      {
+        "id": "assemble-and-serve",
+        "type": "action",
+        "instruction": "Remove sweet potatoes from the oven and turn halves cut side up. Spread butter and cheese on top, then mash the filling with a fork. Serve sweet potato halves on plates, distribute bean-corn mix over them. Add tomato salsa and guacamole on top. Garnish with lime zest, remaining herbs, and lime wedges. Enjoy!",
+        "startMinute": 70,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "miniballs-with-chili-mayo-and-vegetable-salad": {
+    "recipeSlug": "miniballs-with-chili-mayo-and-vegetable-salad",
+    "totalDurationMinutes": 60,
+    "timeline": [
+      {
+        "id": "hackfleisch-zubereiten",
+        "type": "action",
+        "instruction": "Limette heiß waschen und Limettenschale abreiben. In einer großen Schüssel Hackfleisch mit 1 TL (für 2 Personen), 1,5 TL (3 Personen) oder 2 TL (4 Personen) Limettenabrieb, Sweet-Chili-Soße, etwas Salz und Pfeffer gut verkneten. Aus der Masse 12 (2 Personen), 18 (3 Personen) oder 24 (4 Personen) Minibällchen formen und kurz kalt stellen.",
+        "startMinute": 0,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-1.jpg"
+      },
+      {
+        "id": "salat-vorbereiten",
+        "type": "action",
+        "instruction": "Karotten schälen und in dünne lange Streifen hobeln. Gurke in dünne Scheiben schneiden. Radieschen grob raspeln. Blätter der Minze abzupfen und fein hacken. Limette halbieren.",
+        "startMinute": 15,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-2.jpg"
+      },
+      {
+        "id": "salat-mariniere",
+        "type": "action",
+        "instruction": "Limette in eine große Schüssel pressen und mit 1 EL (2 P), 1 EL (3 P) oder 2 EL (4 P) Zucker und restlichem Limettenabrieb zu einem Dressing verrühren. Gurkenscheiben, Karottenstreifen, geraspelte Radieschen und gehackte Minze hinzufügen, umrühren und marinieren lassen. (Dressing marinieren lassen)",
+        "startMinute": 25,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-3.jpg"
+      },
+      {
+        "id": "chili-mayonnaise-verruehren",
+        "type": "action",
+        "instruction": "Brot 5 – 8 Min. im Ofen backen bis es knusprig ist. In einer kleinen Schüssel Mayonnaise mit Siracha-Soße verrühren. Nach Geschmack mit Salz und Pfeffer nachwürzen. (Brot im Ofen backen)",
+        "startMinute": 30,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-4.jpg"
+      },
+      {
+        "id": "baellchen-anbraten",
+        "type": "action",
+        "instruction": "In einer großen Pfanne mit mittlerer Stufe 1 EL (2 P), 1,5 EL (3 P) oder 2 EL (4 P) Öl erhitzen. Minibällchen in die Pfanne geben, etwas platt drücken und je Seite 3 - 4 Min. anbraten, bis das Fleisch durchgegart ist. Währenddessen Brot senkrecht halbieren, Brothälften aufschneiden (nicht ganz durchschneiden) und mit Chili-Mayonnaise bestreichen. (Minibällchen platt drücken für gleichmäßiges Braten)",
+        "startMinute": 40,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "Brothälften mit Gurkenscheiben belegen und Minibällchen darauf anrichten. Mit Karotte und Radieschen belegen und nach Belieben Koriander darauf anrichten. Brot zusammenklappen und mit dem restlichen Salat genießen. (Tipp: Koriander hat einen besonderen Geschmack, probier ihn lieber bevor du ihn benutzt.)",
+        "startMinute": 55,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180221110.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "zucchini-eggplant-ratatouille-bruschetta": {
+    "recipeSlug": "zucchini-eggplant-ratatouille-bruschetta",
+    "totalDurationMinutes": 65,
+    "timeline": [
+      {
+        "id": "preheat-oven",
+        "type": "action",
+        "instruction": "Preheat the oven to 220°C top/bottom heat (200°C fan).",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-1.jpg"
+      },
+      {
+        "id": "prepare-vegetables",
+        "type": "action",
+        "instruction": "Wash vegetables and herbs. Halve the peppers, remove seeds and cut pepper halves into approximately 1 cm thick strips. Cut ends off zucchini and eggplant, then dice both into approx. 2 cm cubes. Pick leaves off oregano and chop roughly.",
+        "startMinute": 10,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-2.jpg"
+      },
+      {
+        "id": "assemble-ratatouille",
+        "type": "action",
+        "instruction": "On a baking tray lined with parchment paper, distribute the pepper strips, oregano, zucchini, and eggplant cubes, leaving some space for the ciabatta. Drizzle with oil (depending on serving size: 1, 1.5, or 2 tablespoons), season with some salt and pepper, and bake on middle rack for about 15 minutes until the vegetables are soft.",
+        "startMinute": 20,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-3.jpg"
+      },
+      {
+        "id": "prepare-garlic-onion-sauce",
+        "type": "action",
+        "instruction": "Peel and dice the garlic and onion. In a small pot, heat 1 tablespoon (2 EL for 3 servings, 2 EL for 4 servings) of oil on medium heat, press half of the garlic and sweat with the diced onion for about 3 minutes. Deglaze with the tomato sauce, add half (for 2 servings), three quarters (for 3 servings), or the whole amount (for 4 servings) of the spice mix 'Hello Smokey', and simmer the sauce for 2–3 minutes. Adjust seasoning with salt and pepper to taste.",
+        "startMinute": 35,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-4.jpg"
+      },
+      {
+        "id": "prepare-bruschetta",
+        "type": "action",
+        "instruction": "Press the remaining garlic into a small bowl and mix with 2 tablespoons (3 EL for 3 servings, 4 EL for 4 servings) of oil and the spice mix 'Hello Buon Appetito'. Slice the ciabatta lengthwise, brush with the spiced oil, season with salt and pepper to taste, then bake in the oven for 6–8 minutes until crispy alongside the vegetables.",
+        "startMinute": 45,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-5.jpg"
+      },
+      {
+        "id": "prepare-herbed-cheese",
+        "type": "action",
+        "instruction": "Pick leaves off basil and chop roughly. Crumble the herding cheese with your hands in a small bowl. Mix the cheese with the chopped basil and lightly season with pepper.",
+        "startMinute": 55,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180228443.MP-pic-6.jpg"
+      },
+      {
+        "id": "serve-dish",
+        "type": "action",
+        "instruction": "Cut the ciabatta halves into large pieces. Distribute the ratatouille on plates, spoon the tomato sauce and herding cheese mixture over the top, and enjoy together with the garlic bruschetta.",
+        "startMinute": 60,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "bulgur-spitzpaprika-salat-mit-avocado-und-zwiebel-joghurt-dip": {
+    "recipeSlug": "bulgur-spitzpaprika-salat-mit-avocado-und-zwiebel-joghurt-dip",
+    "totalDurationMinutes": 95,
+    "timeline": [
+      {
+        "id": "bulgur-kochen",
+        "type": "action",
+        "instruction": "In einen kleinen Topf 350 ml (für 2 Personen) / 470 ml (für 3 Personen) / 700 ml (für 4 Personen) kochendes Wasser füllen. Gewürzmischung und Salz zugeben und einmal aufkochen lassen. Bulgur einrühren und bei niedriger Hitze ca. 15 Min. abgedeckt köcheln lassen. Dann Topf vom Herd nehmen und mindestens 10 Min. abgedeckt ziehen lassen. (Wasser zum Kochen bringen, dann Bulgur garen.)",
+        "startMinute": 0,
+        "durationMinutes": 30,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-1.jpg"
+      },
+      {
+        "id": "paprikas-backen",
+        "type": "action",
+        "instruction": "Spitzpaprika halbieren, Kerne und Strunk entfernen. Spitzpaprika auf ein mit Backpapier belegtes Backblech legen und mit 1 EL (für 2 Personen), 1,5 EL (für 3 Personen) bzw. 2 EL (für 4 Personen) Olivenöl beträufeln. Pistazien grob hacken. Hirtenkäse mit den Händen in die Spitzpaprika bröseln. Pistazien darüber verteilen. Auf der Mittelschiene im Ofen 15–20 Min. backen, bis die Spitzpaprika weich sind. (Backofen auf 220°C Ober- und Unterhitze vorheizen.)",
+        "startMinute": 30,
+        "durationMinutes": 25,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-2.jpg"
+      },
+      {
+        "id": "zwiebeln-karamellisieren",
+        "type": "action",
+        "instruction": "Blätter von Petersilie und Minze abzupfen und getrennt voneinander fein hacken. Zwiebel abziehen, halbieren und in feine Streifen schneiden. In einer kleinen Pfanne 1 EL (für 2 Personen), 1,5 EL (für 3 Personen) bzw. 2 EL (für 4 Personen) Olivenöl erhitzen. Zwiebelstreifen darin bei mittlerer Temperatur 8–10 Min. glasig dünsten. Mit Balsamicocreme ablöschen und auf der ausgeschalteten Herdplatte stehen lassen. (Zwiebeln langsam glasig dünsten.)",
+        "startMinute": 55,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-3.jpg"
+      },
+      {
+        "id": "salat-vorbereiten",
+        "type": "action",
+        "instruction": "Limette heiß abwaschen, Schale der Limette fein abreiben. Limette in 6 (bei 2 Personen), 6 (bei 3 Personen) bzw. 12 (bei 4 Personen) Spalten schneiden. In einer großen Schüssel Saft von 1 (2P), 1,5 (3P) bzw. 2 (4P) Limettenspalten, 1 EL (2P), 1,5 EL (3P) bzw. 2 EL (4P) Olivenöl, süßen Senf, Salz und Pfeffer verrühren. Spinat unterheben. (Dressing anrühren und Spinat unterheben.)",
+        "startMinute": 70,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-4.jpg"
+      },
+      {
+        "id": "dip-zubereiten",
+        "type": "action",
+        "instruction": "In einer kleinen Schüssel Sahnejoghurt mit Minze und einigen Tropfen Limettensaft verrühren. Mit Salz und Pfeffer abschmecken. Avocado halbieren, Stein entfernen, Fruchtfleisch herauslösen und quer in Scheiben schneiden. (Frischen Minz-Joghurt-Dip zubereiten.)",
+        "startMinute": 80,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "Bulgur mit dem Saft von 1 (2P), 1,5 (3P) bzw. 2 (4P) Limettenspalten nach Geschmack, gehackter Petersilie und 1 TL (2P), 1,5 TL (3P) bzw. 2 TL (4P) Limettenabrieb mischen und auf tiefe Teller geben. Spinatsalat, Avocado, Spitzpaprika und karamellisierte Zwiebeln darauf verteilen und mit Minzjoghurt genießen. (Alles ansprechend anrichten und servieren.)",
+        "startMinute": 90,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180235065.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "marinated-grilled-chicken-legs-with-taboule-and-mint-yogurt": {
+    "recipeSlug": "marinated-grilled-chicken-legs-with-taboule-and-mint-yogurt",
+    "totalDurationMinutes": 114,
+    "timeline": [
+      {
+        "id": "wash-ingredients",
+        "type": "action",
+        "instruction": "Wash vegetables and herbs thoroughly. Wash chicken legs thoroughly before preparation. (Washing chicken legs removes any vacuum packaging odor.)",
+        "startMinute": 0,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-1.jpg"
+      },
+      {
+        "id": "heat-water",
+        "type": "action",
+        "instruction": "Heat water to boiling (350 ml for 2 servings, 525 ml for 3 servings, 700 ml for 4 servings). (Use water for bulgur preparation and marinade.)",
+        "startMinute": 5,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-2.jpg"
+      },
+      {
+        "id": "prepare-marinade",
+        "type": "action",
+        "instruction": "In a large bowl, mix 2 tbsp oil (for 2 servings; 3 tbsp for 3; 4 tbsp for 4) with 1 tsp lemon zest (adjust for servings as 1 to 2 tsp), 2 tbsp lemon juice, pepper, and salt. Stir well. (Ensure lemon zest is finely grated.)",
+        "startMinute": 10,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-3.jpg"
+      },
+      {
+        "id": "marinate-chicken",
+        "type": "action",
+        "instruction": "Turn chicken legs in the marinade to coat well. Let marinate while preparing other ingredients. (Ensure all legs are well covered.)",
+        "startMinute": 15,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-4.jpg"
+      },
+      {
+        "id": "grill-chicken-legs",
+        "type": "action",
+        "instruction": "Place chicken legs skin side down on grill and grill for about 22–30 minutes, turning regularly to crisp all sides. (Wrap garlic in foil and grill for about 5 minutes alongside chicken.)",
+        "startMinute": 20,
+        "durationMinutes": 30,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-5.jpg"
+      },
+      {
+        "id": "cook-bulgur",
+        "type": "action",
+        "instruction": "Put boiling water (350 ml for 2 servings; 525 ml for 3; 700 ml for 4) in a small pot, add vegetable broth powder, lightly salt, and bring to a boil once. (Prepare bulgur for cooking.)",
+        "startMinute": 50,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180242577.MP-pic-6.jpg"
+      },
+      {
+        "id": "soak-bulgur",
+        "type": "action",
+        "instruction": "Stir in bulgur, cover pot, turn off heat, and let bulgur soak for about 25 minutes until water is fully absorbed. (Do not stir during soaking.)",
+        "startMinute": 55,
+        "durationMinutes": 25,
+        "isCriticalPath": true
+      },
+      {
+        "id": "prepare-mint-yogurt",
+        "type": "action",
+        "instruction": "Pick mint and parsley leaves and chop herbs separately. In a small bowl, mix chopped mint with yogurt, salt, pepper, 1 tbsp lemon juice, 2 tbsp olive oil, and pressed garlic. (Press garlic from foil before mixing.)",
+        "startMinute": 80,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "prepare-tabbouleh",
+        "type": "action",
+        "instruction": "Halve tomatoes, remove stems, and dice into 0.5 cm cubes. Cut spring onions into thin rings. Cut ends off cucumber and dice into 0.5 cm cubes. Crumble feta cheese with hands. (Fresh and evenly chopped ingredients improve texture and taste.)",
+        "startMinute": 90,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      },
+      {
+        "id": "mix-tabbouleh",
+        "type": "action",
+        "instruction": "Combine tomato, spring onion, cucumber, feta, chopped parsley, salt, and pepper in a bowl to make the dressing. Mix everything thoroughly. (Adjust seasoning to taste.)",
+        "startMinute": 100,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "prepare-cashews",
+        "type": "action",
+        "instruction": "Coarsely chop cashew nuts. (Can be done while bulgur soaks.)",
+        "startMinute": 105,
+        "durationMinutes": 2,
+        "isCriticalPath": true
+      },
+      {
+        "id": "assemble-dish",
+        "type": "action",
+        "instruction": "If needed, drain excess water from bulgur and fluff with a fork. Mix bulgur under tabbouleh and place on serving plates. (Fluff bulgur to keep it light.)",
+        "startMinute": 107,
+        "durationMinutes": 5,
+        "isCriticalPath": true
+      },
+      {
+        "id": "serve",
+        "type": "action",
+        "instruction": "Arrange grilled chicken legs on plates alongside tabbouleh. Sprinkle chopped cashew nuts over, add a spoonful of mint yogurt, and enjoy. (Serve immediately for best flavor.)",
+        "startMinute": 112,
+        "durationMinutes": 2,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "vegetarische-moussaka-mit-aubergine-linsen": {
+    "recipeSlug": "vegetarische-moussaka-mit-aubergine-linsen",
+    "totalDurationMinutes": 65,
+    "timeline": [
+      {
+        "id": "kleine-vorbereitung",
+        "type": "action",
+        "instruction": "Linsen durch ein Sieb abgießen und mit Wasser spülen, bis dieses klar hindurchfließt. Enden der Aubergine abschneiden und Aubergine in ca. 0,5 cm dicke Scheiben schneiden.",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-1.jpg"
+      },
+      {
+        "id": "auflauf-mischen",
+        "type": "action",
+        "instruction": "In einer großen Auflaufform stückige Tomaten, Linsen, Kartoffelwürfel, Gemüsebrühe, Honig und Gewürzmischung \"Hello Souflaki\" vermengen. Mit Zucker, Salz und Pfeffer würzen und gleichmäßig auf dem Boden der Auflaufform verteilen. (Für 4 Personen am besten 2 Auflaufformen verwenden.)",
+        "startMinute": 10,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-2.jpg"
+      },
+      {
+        "id": "aubergine-backen",
+        "type": "action",
+        "instruction": "Auf der Hälfte eines mit Backpapier belegten Backblechs die Auberginenscheiben ausbreiten. Mit Olivenöl beträufeln und mit Salz und Pfeffer würzen. Bei 220 °C Ober-/Unterhitze ca. 20 Minuten backen, bis sie etwas weicher sind. (Für 3 oder 4 Personen ein ganzes Backblech verwenden.)",
+        "startMinute": 15,
+        "durationMinutes": 20,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-3.jpg"
+      },
+      {
+        "id": "frischkaese-mischung-zubereiten",
+        "type": "action",
+        "instruction": "Frischkäse und Gewürzmischung \"Hello Muskat\" mit heißem Wasser glatt rühren. Tomate in 2 cm große Würfel schneiden. Salatherz halbieren, Strunk herausschneiden und in Streifen schneiden.",
+        "startMinute": 35,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-4.jpg"
+      },
+      {
+        "id": "gratiniere-auflauf",
+        "type": "action",
+        "instruction": "Auflaufform aus dem Ofen nehmen und gut durchmengen. Vorgebackene Auberginenscheiben auf dem Auflauf verteilen, Frischkäse-Mischung darüber geben, mit Käse-Mix bestreuen und weitere 10–12 Minuten im Ofen gratinieren lassen. Danach mit Küchenpapier die Auflaufform auswischen.",
+        "startMinute": 45,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "In einer großen Schüssel Balsamico-Crème und Olivenöl verrühren. Dressing mit Salz und Pfeffer abschmecken. Tomate und Salat unter das Dressing heben. Vegetarische Moussaka auf Teller verteilen, Salat daneben anrichten und genießen.",
+        "startMinute": 60,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180248438.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "beef-burger-garden-style-risotto": {
+    "recipeSlug": "beef-burger-garden-style-risotto",
+    "totalDurationMinutes": 52,
+    "timeline": [
+      {
+        "id": "prepare-risotto",
+        "type": "action",
+        "instruction": "In a large pot, heat 1 EL olive oil and sauté chopped onion and garlic for about 1 minute. Add risotto rice and sauté for another minute. Deglaze with a little chicken broth and cook risotto on low heat for about 20 minutes, stirring occasionally and adding broth gradually as needed. (Stir continuously to prevent sticking.)",
+        "startMinute": 0,
+        "durationMinutes": 22,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-1.jpg"
+      },
+      {
+        "id": "cut-vegetables",
+        "type": "action",
+        "instruction": "Slice mushrooms. Quarter pear, remove core, and halve pieces again. Cut chives into fine rolls.",
+        "startMinute": 22,
+        "durationMinutes": 7,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-2.jpg"
+      },
+      {
+        "id": "fry-bacon",
+        "type": "action",
+        "instruction": "Place bacon slices in a large cold pan and fry over medium heat for about 5 minutes, turning occasionally until crispy. Remove and set aside.",
+        "startMinute": 29,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-3.jpg"
+      },
+      {
+        "id": "fry-mushrooms",
+        "type": "action",
+        "instruction": "In the same pan without additional fat, fry sliced mushrooms for 3-4 minutes, season with salt and pepper, then add to the risotto.",
+        "startMinute": 34,
+        "durationMinutes": 6,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-4.jpg"
+      },
+      {
+        "id": "caramelize-pear",
+        "type": "action",
+        "instruction": "Wipe pan with kitchen paper, then add pear slices and walnuts. Fry for about 3 minutes. Sprinkle 0.5 to 1 EL sugar over and let caramelize gently for 2 to 3 minutes.",
+        "startMinute": 40,
+        "durationMinutes": 8,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-5.jpg"
+      },
+      {
+        "id": "plate-and-serve",
+        "type": "action",
+        "instruction": "Stir grated hard cheese into the finished risotto, then spread on plates. Top with caramelized pear slices, walnuts, crispy bacon slices, and sprinkle with chive rolls. Serve and enjoy.",
+        "startMinute": 48,
+        "durationMinutes": 4,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180254321.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "bulgogi-sweet-chili-burger-with-roasted-vegetable-slices": {
+    "recipeSlug": "bulgogi-sweet-chili-burger-with-roasted-vegetable-slices",
+    "totalDurationMinutes": 80,
+    "timeline": [
+      {
+        "id": "prepare-oven-and-utensils",
+        "type": "action",
+        "instruction": "Preheat the oven to 220°C (top and bottom heat) or 200°C (fan). Gather 1 baking dish, 1 baking tray lined with baking paper, a small bowl, and a vegetable grater. (Heated oven before starting preparation.)",
+        "startMinute": 0,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-1.jpg"
+      },
+      {
+        "id": "prepare-oven-vegetables",
+        "type": "action",
+        "instruction": "Peel the onion, quarter it and separate the layers. Halve the green bell pepper, remove seeds and stem, then cut into 1 cm wide strips. Halve the sweet potato lengthwise, then quarter lengthwise and slice into 1 cm thick slices. (Prepare vegetables before mixing.)",
+        "startMinute": 10,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-2.jpg"
+      },
+      {
+        "id": "mix-bulgogi-mixture",
+        "type": "action",
+        "instruction": "Put the ground beef, quartered onion, and green pepper strips into a baking dish. Add bulgogi sauce and sesame seeds, then mix well. (Mix thoroughly to distribute sauce and seeds.)",
+        "startMinute": 25,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-3.jpg"
+      },
+      {
+        "id": "grate-carrot-and-prepare-baguette",
+        "type": "action",
+        "instruction": "Peel and coarsely grate the carrot. Pick coriander leaves. Halve the baguette crosswise and then slice horizontally. (Prepare carrot and baguette for assembly.)",
+        "startMinute": 30,
+        "durationMinutes": 7,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-4.jpg"
+      },
+      {
+        "id": "prepare-dip",
+        "type": "action",
+        "instruction": "In a small bowl, combine mayonnaise and sweet chili sauce with salt and pepper to make the dip. Stir well. (Adjust seasoning to taste.)",
+        "startMinute": 37,
+        "durationMinutes": 3,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-5.jpg"
+      },
+      {
+        "id": "bake-vegetables",
+        "type": "action",
+        "instruction": "Place the baking dish on the side of the baking tray lined with baking paper. Arrange the sweet potato slices on the other side. Drizzle with oil, sprinkle with salt and pepper, and toss to coat. Bake everything in the middle of the oven for 25-30 minutes. Add the baguette during the last 5-10 minutes of baking time. (If space is tight, you can use two baking trays.)",
+        "startMinute": 40,
+        "durationMinutes": 30,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180301503.MP-pic-6.jpg"
+      },
+      {
+        "id": "assemble-sandwich",
+        "type": "action",
+        "instruction": "Put the grated carrot into the baking dish and mix with the Bulgogi mixture. Spread both sides of the baguette with the sweet chili mayonnaise. Fill the baguette with the bulldogi mixture and garnish with coriander leaves. Serve the sweet potato slices with the remaining sweet chili mayonnaise. (Assemble while filling is warm for best flavor.)",
+        "startMinute": 70,
+        "durationMinutes": 10,
+        "isCriticalPath": true
+      }
+    ],
+    "finishCriteria": "Recipe completed"
+  },
+  "ofen-ratatouille-mit-walnussen-und-mozzarella": {
+    "recipeSlug": "ofen-ratatouille-mit-walnussen-und-mozzarella",
+    "totalDurationMinutes": 65,
+    "timeline": [
+      {
+        "id": "vorbereiten-und-gemuse-schneiden",
+        "type": "action",
+        "instruction": "Wasche das Gemüse. Heize den Backofen auf 220°C Ober-/Unterhitze (200°C Umluft) vor. Schneide von der Aubergine und Zucchini die Enden ab und schneide jeweils ca. 0,5 cm dicke Scheiben. Schäle die Kartoffel und schneide auch 0,5 cm dicke Scheiben. Ziehe die Zwiebel ab, halbiere sie und schneide feine Halbringe. Ziehe den Knoblauch ab. (Damit die Aubergine nicht bitter schmeckt, sofort nach dem Schneiden salzen und nach ca. 10 Min. trocken tupfen.)",
+        "startMinute": 0,
+        "durationMinutes": 20,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-1.jpg"
+      },
+      {
+        "id": "walnusse-rosten",
+        "type": "action",
+        "instruction": "Röste die Walnusskerne in einer großen Pfanne ohne Fett für 2–3 Minuten, bis sie anfangen zu duften. Nimm sie heraus und lasse sie auskühlen. Erhitze 1 EL Olivenöl in der Pfanne, gib die Zwiebel dazu, presse den Knoblauch hinein und dünste beides für 2–3 Minuten glasig. Gib die Gewürzmischung \"Hello Harissa\" dazu und röste alles einmal durch. Rühre die Hälfte des Tomatensugos unter und würze mit Salz und Pfeffer.",
+        "startMinute": 20,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-2.jpg"
+      },
+      {
+        "id": "gemuse-schichten",
+        "type": "action",
+        "instruction": "Gib die Zwiebelmasse in eine große Auflaufform und verteile sie gleichmäßig. Schichte nun abwechselnd Auberginen-, Kartoffel- und Zucchinischeiben über die Zwiebelmasse. Würze mit Salz und Pfeffer und beträufle alles mit 2 EL Olivenöl. (Verwende bei 4 Personen 2 Auflaufformen.)",
+        "startMinute": 30,
+        "durationMinutes": 10,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-3.jpg"
+      },
+      {
+        "id": "salat-zubereiten",
+        "type": "action",
+        "instruction": "Bereite in einer großen Schüssel das Dressing zu: Verrühre Balsamicoessig, Olivenöl, Wasser, Salz, Pfeffer und eine Prise Zucker. Hacke die Walnüsse grob und füge sie zum Dressing hinzu.",
+        "startMinute": 40,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-4.jpg"
+      },
+      {
+        "id": "gemuse-gratinieren",
+        "type": "action",
+        "instruction": "Halbiere die Oliven und gib sie zusammen mit dem restlichen Tomatensugo über das Gemüse. Zerzupfe den Mozzarella und verteile ihn mit der Hälfte des geraspelten Hartkäses auf dem Gemüse. Backe das Ganze ca. 10 Minuten, bis der Mozzarella zerlaufen ist. (Oliven halbieren.)",
+        "startMinute": 45,
+        "durationMinutes": 15,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-5.jpg"
+      },
+      {
+        "id": "anrichten",
+        "type": "action",
+        "instruction": "Verteile den Rucola in der großen Schüssel und mische ihn mit dem Dressing und den restlichen Walnüssen sowie den restlichen Hartkäseflocken. Verteile Ofen-Ratatouille und Salat auf den Tellern und genieße.",
+        "startMinute": 60,
+        "durationMinutes": 5,
+        "isCriticalPath": true,
+        "image": "/chickadee/assets/images/steps/PXL_20251228_180311367.MP-pic-6.jpg"
+      }
+    ],
+    "finishCriteria": "Recipe completed"
   }
 }

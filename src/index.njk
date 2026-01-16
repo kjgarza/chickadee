@@ -25,10 +25,18 @@ title: Recipes
       All
     </button>
     {% for tag in allTags %}
-    <button class="filter-btn" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
+    <button class="filter-btn {% if loop.index > 10 %}hidden-tag{% endif %}" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
       {{ tag }}
     </button>
     {% endfor %}
+    {% if allTags.length > 10 %}
+    <button class="filter-btn filter-btn--expand" onclick="toggleExpandTags(true)">
+      ...
+    </button>
+    <button class="filter-btn filter-btn--collapse" onclick="toggleExpandTags(false)">
+      Less
+    </button>
+    {% endif %}
   </div>
 </div>
 
@@ -75,6 +83,24 @@ title: Recipes
   {% endfor %}
 </div>
 
+<style>
+.hidden-tag {
+  display: none;
+}
+.filter-btn--collapse {
+  display: none;
+}
+.filter-buttons.expanded .hidden-tag {
+  display: inline-flex;
+}
+.filter-buttons.expanded .filter-btn--expand {
+  display: none;
+}
+.filter-buttons.expanded .filter-btn--collapse {
+  display: inline-flex;
+}
+</style>
+
 <script>
 function filterByTag(tag) {
   // Update button states
@@ -96,5 +122,14 @@ function filterByTag(tag) {
       card.classList.add('hidden');
     }
   });
+}
+
+function toggleExpandTags(expand) {
+  const filterButtons = document.querySelector('.filter-buttons');
+  if (expand) {
+    filterButtons.classList.add('expanded');
+  } else {
+    filterButtons.classList.remove('expanded');
+  }
 }
 </script>

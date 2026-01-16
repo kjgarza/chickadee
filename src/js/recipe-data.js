@@ -60,10 +60,19 @@ const RecipeDataManager = {
 function updateServingSize(newSize) {
   const size = parseInt(newSize);
   RecipeDataManager.currentServingSize = size;
-  
+
+  // Update button states
+  document.querySelectorAll('.covers-btn').forEach(btn => {
+    if (parseInt(btn.dataset.value) === size) {
+      btn.classList.add('covers-btn--active');
+    } else {
+      btn.classList.remove('covers-btn--active');
+    }
+  });
+
   // Update all ingredient quantities in the DOM
   document.querySelectorAll('.ingredient-item').forEach(item => {
-    const quantityEl = item.querySelector('.ingredient-quantity');
+    const quantityEl = item.querySelector('.ingredient-qty');
     if (!quantityEl) return;
     
     const quantities = JSON.parse(quantityEl.dataset.quantities || '{}');

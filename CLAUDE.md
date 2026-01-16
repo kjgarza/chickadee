@@ -11,10 +11,13 @@ A mobile-friendly interactive cooking timer built with Eleventy (11ty) v3 and Nu
 ## Commands
 
 ```bash
-bun start              # Dev server at localhost:8080
-bun run build          # Build to _site/ (runs validation first)
-bun run validate       # Validate recipes.json and processes.json against Zod schemas
-bun run generate <slug> # Generate process data for a recipe (REQUIRED after editing recipes.json)
+bun start                            # Dev server at localhost:8080
+bun run build                        # Build to _site/ (runs validation via prebuild)
+bun run validate                     # Validate recipes.json and processes.json against Zod schemas
+bun run generate <slug>              # Generate process data for a recipe (REQUIRED after editing recipes.json)
+bun run image-to-recipe <img> [slug] # Generate recipe from image using GPT-4.1-mini (requires OPENAI_API_KEY)
+bunx vitest                          # Run tests
+bunx vitest run                      # Run tests once (no watch)
 ```
 
 ## Architecture: Dual Schema System
@@ -55,19 +58,23 @@ Explicit quantities per serving (no multipliers):
 Use `type: 'parallel'` in CookingProcessSchema for simultaneous tasks. Use `resource` field ('stovetop', 'pan', 'oven') to prevent conflicts.
 
 ### Client-Side State
-Timer state stored in localStorage with key `cookingTimer`, indexed by recipe slug. Contains `startTime`, `servingSize`, `currentStepId`.
+Timer state stored in localStorage with key `cookingTimer`, indexed by recipe slug. Contains `startTime`, `servingSize`, `currentStepId`. Timeline calculations done client-side using `Date.now()` vs `state.startTime`.
+
+### Dynamic Page Generation
+Recipe pages use Eleventy pagination to generate `/recipes/<slug>/` from `recipes.json` keys. Recipe data embedded in HTML at build time, accessed via `window.recipeData`.
 
 ## File Organization
 
 - `src/_includes/layouts/base.njk` - Base layout with daisyUI theme switching
-- `src/_includes/components/*.njk` - Reusable UI components
+- `src/_includes/components/*.njk` - Reusable UI components (step-card, timer-controls, timeline-view)
 - `src/_includes/macros/recipe-macros.njk` - Helper macros for ingredient lists, time formatting
 - `src/recipes/recipe.njk` - Dynamic recipe page using Eleventy pagination
 - `src/js/timer.js` - TimerManager for localStorage state
-- `src/js/timeline.js` - TimelineManager calculates upcoming/current steps
-- `src/schemas/` - Zod validation schemas
+- `src/js/timeline.js` - TimelineManager calculates upcoming/current steps from elapsed time
+- `src/js/recipe-data.js` - Serving size selection and ingredient quantity updates
+- `src/schemas/` - Zod validation schemas (recipe-schema.js, cooking-process-schema.js)
 
-## Eleventy Config
+## Eleventy Config (`.eleventy.js`)
 
 Custom filters: `formatMinutes` (converts to "2h 30m"), `json` (serializes for HTML data attributes).
 Path prefix: `/chickadee/`
@@ -75,4 +82,4 @@ No bundling - JS/CSS copied as-is via passthrough.
 
 ## Deployment
 
-Pushes to `main` trigger GitHub Pages deployment via `.github/workflows/deploy.yml`. Build fails if validation fails.
+Pushes to `main` trigger GitHub Pages deployment via `.github/workflows/deploy.yml`. Build fails if validation fails (prebuild runs validate).
