@@ -1,0 +1,12 @@
+{# Google Analytics via Google Tag Manager #}
+{% if site.ga_code %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_code }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.ga_code }}');
+</script>
+{% endif %}
