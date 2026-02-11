@@ -4,6 +4,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/assets");
   
+  // Add global data for environment
+  eleventyConfig.addGlobalData("env", process.env.ELEVENTY_ENV || "development");
+  
   // Add filters for time formatting
   eleventyConfig.addFilter("formatMinutes", function(minutes) {
     const hrs = Math.floor(minutes / 60);

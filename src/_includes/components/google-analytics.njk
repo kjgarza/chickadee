@@ -1,12 +1,13 @@
-{# Google Analytics via Google Tag Manager #}
-{% if site.ga_code %}
+{# Google Analytics 4 via global site tag (gtag.js) #}
+{# Only load in production to avoid polluting analytics data #}
+{% if site.gaCode and env == "production" %}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_code }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.gaCode }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ site.ga_code }}');
+  gtag('config', '{{ site.gaCode }}');
 </script>
 {% endif %}
