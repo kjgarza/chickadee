@@ -177,21 +177,27 @@ function updateToggleButtonState(isExpanded) {
 
 function updateTimerStatusLabel(status) {
   const label = document.getElementById('timer-status-label');
-  if (!label) return;
+  const elapsedLabel = document.getElementById('timer-elapsed-label');
 
-  label.classList.remove('timer-status--firing', 'timer-status--held');
+  if (label) {
+    label.classList.remove('timer-status--firing', 'timer-status--held');
 
-  switch (status) {
-    case 'firing':
-      label.textContent = 'Firing';
-      label.classList.add('timer-status--firing');
-      break;
-    case 'held':
-      label.textContent = 'Held';
-      label.classList.add('timer-status--held');
-      break;
-    default:
-      label.textContent = 'Mise en Place';
+    switch (status) {
+      case 'firing':
+        label.textContent = 'Firing';
+        label.classList.add('timer-status--firing');
+        break;
+      case 'held':
+        label.textContent = 'Held';
+        label.classList.add('timer-status--held');
+        break;
+      default:
+        label.textContent = 'Mise en Place';
+    }
+  }
+
+  if (elapsedLabel) {
+    elapsedLabel.textContent = status === 'ready' ? 'Ready' : 'Elapsed';
   }
 }
 
@@ -203,6 +209,12 @@ function showTimerRunning() {
   document.getElementById('reset-btn').classList.remove('hidden');
 
   updateTimerStatusLabel('firing');
+
+  const hint = document.getElementById('timer-hint');
+  if (hint) hint.classList.add('hidden');
+
+  const badge = document.getElementById('first-step-badge');
+  if (badge) badge.textContent = 'Next';
 
   // Show countdowns on step cards
   document.querySelectorAll('.step-countdown').forEach(el => {
@@ -222,6 +234,9 @@ function showTimerPaused() {
 
   updateTimerStatusLabel('held');
 
+  const hint = document.getElementById('timer-hint');
+  if (hint) hint.classList.add('hidden');
+
   // Show countdowns on step cards
   document.querySelectorAll('.step-countdown').forEach(el => {
     el.classList.remove('hidden');
@@ -232,13 +247,19 @@ function showTimerPaused() {
 }
 
 function showTimerStopped() {
-  document.getElementById('timer-status').classList.add('hidden');
+  document.getElementById('timer-status').classList.remove('hidden');
   document.getElementById('start-btn').classList.remove('hidden');
   document.getElementById('pause-btn').classList.add('hidden');
   document.getElementById('resume-btn').classList.add('hidden');
   document.getElementById('reset-btn').classList.add('hidden');
 
   updateTimerStatusLabel('ready');
+
+  const hint = document.getElementById('timer-hint');
+  if (hint) hint.classList.remove('hidden');
+
+  const badge = document.getElementById('first-step-badge');
+  if (badge) badge.textContent = 'Start Here';
 
   // Hide countdowns, show static times
   document.querySelectorAll('.step-countdown').forEach(el => {
