@@ -33,11 +33,11 @@ title: Recipes
 <div class="filter-group">
   <p class="filter-label">Filter</p>
   <div class="filter-buttons">
-    <button class="filter-btn filter-btn--active" data-tag="all" onclick="filterByTag('all')">
+    <button class="filter-btn" data-tag="all" onclick="filterByTag('all')">
       All
     </button>
     {% for tag in allTags %}
-    <button class="filter-btn {% if loop.index > 10 %}hidden-tag{% endif %}" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
+    <button class="filter-btn {% if tag == 'en-GB' %}filter-btn--active{% endif %} {% if loop.index > 10 %}hidden-tag{% endif %}" data-tag="{{ tag }}" onclick="filterByTag('{{ tag }}')">
       {{ tag }}
     </button>
     {% endfor %}
@@ -135,6 +135,10 @@ function filterByTag(tag) {
     }
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  filterByTag('en-GB');
+});
 
 function toggleExpandTags(expand) {
   const filterButtons = document.querySelector('.filter-buttons');
