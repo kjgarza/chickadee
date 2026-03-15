@@ -28,7 +28,7 @@
   {# Ticket Body with instruction #}
   <div class="step-ticket-body">
     {% if isNext %}
-    <span class="badge badge--fire badge--stamp mb-2">Next</span>
+    <span id="first-step-badge" class="badge badge--fire badge--stamp mb-2">Start Here</span>
     {% endif %}
 
     <p class="step-instruction">{{ step.instruction }}</p>

@@ -216,6 +216,13 @@ h3 { font-size: var(--text-lg); }
   margin-bottom: var(--space-2);
 }
 
+.timer-hint {
+  font-size: var(--text-xs);
+  opacity: 0.6;
+  margin-top: var(--space-3);
+  letter-spacing: 0.05em;
+}
+
 .timer-status {
   display: inline-block;
   padding: var(--space-1) var(--space-3);
@@ -641,8 +648,9 @@ h3 { font-size: var(--text-lg); }
 }
 
 .covers-btn--active {
-  background: var(--ink-black);
-  color: var(--ticket-white);
+  background: var(--fire-red);
+  color: #F5F5F0;
+  border-color: var(--fire-red);
 }
 
 /* ----------------------------------------
