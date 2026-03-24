@@ -25,6 +25,10 @@
   --metal-grey: #4A4A4A;
   --rail-silver: #6B6B6B;
 
+  /* Background Gradient */
+  --bg-gradient-mid: #DED8CE;
+  --bg-gradient-end: #D4CFC6;
+
   /* Urgency Red - The ONLY accent */
   --fire-red: #DC2626;
   --fire-red-dim: #991B1B;
@@ -57,6 +61,8 @@
   --ink-grey: #E8E4DC;
   --metal-grey: #9CA3AF;
   --rail-silver: #6B7280;
+  --bg-gradient-mid: #252525;
+  --bg-gradient-end: #1F1F1F;
 }
 
 /* ----------------------------------------
@@ -69,11 +75,30 @@
 body {
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--ticket-cream);
+  background-image:
+    linear-gradient(160deg, var(--ticket-cream) 0%, var(--bg-gradient-mid) 50%, var(--bg-gradient-end) 100%);
   color: var(--ink-black);
   line-height: 1.5;
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  position: relative;
+}
+
+/* Noise grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
 }
 
 a {

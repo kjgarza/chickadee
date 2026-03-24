@@ -324,11 +324,16 @@ function updateStepCountdowns(elapsedMs) {
     // Update ticket state classes
     card.classList.remove('step-ticket--waiting', 'step-ticket--firing', 'step-ticket--done', 'step-ticket--next');
 
-    if (remainingMinutes <= 0) {
-      // Step is active now
-      countdownEl.textContent = 'Now';
+    if (remainingMinutes <= 0 && durationMinutes > 0 && elapsedMinutes >= endMinute) {
+      // Step is completed (started and duration has fully elapsed)
+      countdownEl.textContent = 'Done';
       countdownEl.classList.add('step-countdown--done');
       card.classList.add('step-ticket--done');
+    } else if (remainingMinutes <= 0) {
+      // Step is active now (started but not yet completed)
+      countdownEl.textContent = 'Now';
+      countdownEl.classList.remove('step-countdown--done');
+      card.classList.add('step-ticket--firing');
     } else {
       const remainingSeconds = Math.floor(remainingMinutes * 60);
       countdownEl.textContent = 'T-' + formatTime(remainingSeconds);
