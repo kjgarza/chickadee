@@ -1,0 +1,42 @@
+{% if site.gaCode and env == "production" %}
+<div id="cookie-banner" class="cookie-banner" style="display:none" role="dialog" aria-label="Cookie consent">
+  <div class="cookie-banner-body">
+    <p class="cookie-banner-text">
+      This site uses cookies for analytics. <a href="{{ '/privacy/' | url }}">Privacy Policy</a>.
+    </p>
+    <div class="cookie-banner-actions">
+      <button class="btn btn--primary btn--sm" onclick="cookieAccept()">Accept</button>
+      <button class="btn btn--ghost btn--sm" onclick="cookieDecline()">Decline</button>
+    </div>
+  </div>
+</div>
+<script>
+function cookieAccept() {
+  localStorage.setItem('cookieConsent', 'accepted');
+  document.getElementById('cookie-banner').style.display = 'none';
+  loadGA('{{ site.gaCode }}');
+}
+function cookieDecline() {
+  localStorage.setItem('cookieConsent', 'declined');
+  document.getElementById('cookie-banner').style.display = 'none';
+}
+function loadGA(id) {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+  document.head.appendChild(s);
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function(){ window.dataLayer.push(arguments); };
+  window.gtag('js', new Date());
+  window.gtag('config', id);
+}
+(function() {
+  var consent = localStorage.getItem('cookieConsent');
+  if (consent === 'accepted') {
+    loadGA('{{ site.gaCode }}');
+  } else if (!consent) {
+    document.getElementById('cookie-banner').style.display = 'block';
+  }
+})();
+</script>
+{% endif %}

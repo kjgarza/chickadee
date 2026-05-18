@@ -1,9 +1,32 @@
 ---
 layout: layouts/base.njk
-title: Recipes
+title: Chickadee — Recipe Timers
+description: Step-by-step cooking timers for focused kitchen flow. Pick a recipe, set your covers, and follow timed steps from prep to plating.
 ---
 
-<h1>Select Order</h1>
+<div class="app-intro mb-6">
+  <h1 class="app-intro-title">Chickadee</h1>
+  <p class="app-intro-tagline">Step-by-step cooking timers. No scrolling, no guessing.</p>
+  <div class="how-it-works mt-4">
+    <p class="filter-label">How it works</p>
+    <div class="how-it-works-steps">
+      <div class="how-it-works-step">
+        <span class="how-it-works-num">01</span>
+        <span>Choose a recipe from the menu below.</span>
+      </div>
+      <div class="how-it-works-step">
+        <span class="how-it-works-num">02</span>
+        <span>Set your covers and fire the timer.</span>
+      </div>
+      <div class="how-it-works-step">
+        <span class="how-it-works-num">03</span>
+        <span>Follow the ticket rail — each step counts down in real time.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="filter-label mb-2">Select Order</h2>
 
 {# Collect all unique tags #}
 {% set allTags = [] %}

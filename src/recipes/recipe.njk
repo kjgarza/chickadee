@@ -5,17 +5,36 @@ pagination:
   alias: slug
 permalink: "/recipes/{{ slug }}/"
 layout: layouts/base.njk
-title: "{{ recipes[slug].title }} | Cooking Timer"
-ogTitle: "{{ recipes[slug].title }}"
-ogDescription: "{{ recipes[slug].description | default('Cook ' + recipes[slug].title + ' with step-by-step guidance') }}"
-eleventyComputed:
-  ogImage: "/assets/images/og/{{ slug }}.png"
 ogType: "article"
+eleventyComputed:
+  title: "{{ recipes[slug].title }} | Chickadee"
+  description: "{{ recipes[slug].description | default('Cook ' + recipes[slug].title + ' with step-by-step guidance') }}"
+  ogTitle: "{{ recipes[slug].title }}"
+  ogDescription: "{{ recipes[slug].description | default('Cook ' + recipes[slug].title + ' with step-by-step guidance') }}"
+  ogImage: "/assets/images/og/{{ slug }}.png"
 ---
 {% import "macros/recipe-macros.njk" as macros %}
 
 {% set recipe = recipes[slug] %}
 {% set process = processes[slug] %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "{{ recipe.title | jsonEscape }}",
+  "description": "{{ recipe.description | default('') | jsonEscape }}",
+  "author": { "@type": "Person", "name": "{{ site.author.name | jsonEscape }}" },
+  "url": "{{ site.url }}{{ page.url | url }}"{% if recipe.totalTimeMinutes %},
+  "totalTime": "PT{{ recipe.totalTimeMinutes }}M"{% endif %},
+  "recipeYield": "{{ recipe.servings.default }} servings",
+  "recipeIngredient": [
+    {% for ingredient in recipe.ingredients %}
+    "{{ ingredient.name | jsonEscape }}"{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
 
 <div class="mb-6">
   <a href="{{ '/' | url }}" class="btn btn--ghost btn--sm">Back</a>

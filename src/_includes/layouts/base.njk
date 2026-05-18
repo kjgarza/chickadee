@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title | default("Cooking Timer") }}</title>
+  <title>{{ title | default("Chickadee") }}</title>
+  <meta name="description" content="{{ description | default(site.description) }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | url }}">
+
+  {# WebSite structured data (homepage only) #}
+  {% if page.url == ('/' | url) %}
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "WebSite", "name": "{{ site.title }}", "url": "{{ site.url }}{{ '/' | url }}", "description": "{{ site.description }}" }
+  </script>
+  {% endif %}
 
   {# OpenGraph metadata #}
   <meta property="og:title" content="{{ ogTitle | default(title) | default('Cooking Timer') }}">
@@ -26,7 +35,7 @@
 <body>
   <div class="container">
     <header class="site-header">
-      <a href="{{ '/' | url }}" class="site-logo">Kitchen Timer</a>
+      <a href="{{ '/' | url }}" class="site-logo">Chickadee</a>
       <nav class="site-nav">
         <a href="{{ '/about/' | url }}" class="nav-link">About</a>
         <button class="theme-toggle" onclick="toggleTheme()">
@@ -46,6 +55,17 @@
         {% if not loop.last %}<span>·</span>{% endif %}
         {% endfor %}
       </div>
+      <nav class="footer-nav mb-4">
+        <a href="{{ '/about/' | url }}">About</a>
+        <span>·</span>
+        <a href="{{ '/privacy/' | url }}">Privacy</a>
+        <span>·</span>
+        <a href="{{ '/terms/' | url }}">Terms</a>
+        <span>·</span>
+        <a href="{{ '/contact/' | url }}">Contact</a>
+        <span>·</span>
+        <a href="{{ '/support/' | url }}">Support</a>
+      </nav>
       <p>© {{ site.copyrightYear }} {{ site.author.name }}</p>
     </footer>
   </div>
@@ -77,5 +97,6 @@
   <script src="{{ '/js/timer.js' | url }}"></script>
   <script src="{{ '/js/timeline.js' | url }}"></script>
   <script src="{{ '/js/recipe-data.js' | url }}"></script>
+  {% include "components/cookie-consent.njk" %}
 </body>
 </html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kjgarza.github.io/chickadee/sitemap.xml

@@ -1,6 +1,7 @@
 {
-  "title": "Cooking Timer",
-  "description": "Interactive cooking timer with step-by-step guidance",
+  "title": "Chickadee",
+  "description": "Step-by-step cooking timers for focused kitchen flow.",
+  "url": "https://kjgarza.github.io",
   "author": {
     "name": "Kristian Garza",
     "email": "kj.garza@gmail.com"

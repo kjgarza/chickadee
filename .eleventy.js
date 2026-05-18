@@ -21,6 +21,13 @@ module.exports = function(eleventyConfig) {
     return JSON.stringify(value);
   });
 
+  eleventyConfig.addFilter("jsonEscape", function(value) {
+    if (!value) return '';
+    return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '');
+  });
+
+  eleventyConfig.addPassthroughCopy("src/robots.txt");
+
   return {
     pathPrefix: "/chickadee/",
     dir: {
