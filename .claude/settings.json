@@ -1,0 +1,7 @@
+{
+  "plansDirectory": ".claude/plans",
+  "enabledPlugins": {
+    "kjgarza-base@marketplace-claude": true,
+    "typescript-lsp@claude-plugins-official": true
+  }
+}
