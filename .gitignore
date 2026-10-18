@@ -144,3 +144,9 @@ _site/
 photos/
 *.jpeg
 *.gif
+CLAUDE.local.md
+
+# local
+.claude/worktrees/
+.claude/settings.local.json
+.DS_Store

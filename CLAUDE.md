@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Shared instructions for coding agents. `AGENTS.md` is a symlink to this file, so Codex, Cursor and others read the same content.
 
 ## Project Overview
 
@@ -83,3 +83,9 @@ No bundling - JS/CSS copied as-is via passthrough.
 ## Deployment
 
 Pushes to `main` trigger GitHub Pages deployment via `.github/workflows/deploy.yml`. Build fails if validation fails (prebuild runs validate).
+
+<!--
+Canonical instruction file. Edit this one; AGENTS.md is a symlink to it.
+Machine-local or personal notes go in CLAUDE.local.md (gitignored).
+Convention: notes/scratchpad/10-Projects/specs/agent-instructions-convention.md
+-->
